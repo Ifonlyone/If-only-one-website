@@ -1,113 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="icon" type="image/png" href="/img-101.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style.css">
-  <title>Not Forgotten. Not Overlooked. — If Only One</title>
-  <meta property="og:title" content="Not Forgotten. Not Overlooked. — If Only One">
-  <meta property="og:description" content="Read 'Not Forgotten. Not Overlooked.' by Summer Martin on If Only One Ministry.">
-  <meta property="og:image" content="/nf-img-1.png">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://ifonly.one/articles/notforgotten.notoverlooked">
-</head>
-<body>
-<nav id="sitenav">
-  <div class="brand" onclick="location.href='/'" >
-    <img src="/img-102.png" alt="If Only One">
-    <b>If Only One</b>
-  </div>
-  <ul class="nl">
-    <li><a class="nb" href="/">Home</a></li>
-    <li><a class="nb" href="/about/">About</a></li>
-    <li><a class="nb" href="/give/">Give</a></li>
-    <li><a class="nb" href="/books/">Books</a></li>
-    <li class="dw">
-      <button class="nb" onclick="location.href='/articles/'" style="padding-right:.3rem">Articles</button><button class="nb" onclick="tdd('ddar')" style="padding:.38rem .3rem;font-size:.7rem">▾</button>
-      <div class="dm wide" id="ddar">
-        <div class="dl">✦ New</div>
-        <div class="di hl" onclick="location.href='/articles/notforgotten.notoverlooked'" style="display:flex;align-items:center"><img src="/nf-img-1.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Not Forgotten. Not Overlooked. <span class="da">— Summer Martin</span></div>
-        <div class="dl">Recent</div>
-        <div class="di" onclick="location.href='/articles/'" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1771865923719-EDJJ8KWNUNAS3SFLBENH/cover.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">The Navigators and Other Things That Are Not … <span class="da">— Bradford Smith</span></div><div class="di" onclick="location.href='/articles/'" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1769794341346-A73V5LY93JNI9NET0QFZ/Picture1.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">What makes waiting so hard? Me. <span class="da">— Summer Martin</span></div><div class="di" onclick="location.href='/articles/'" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1768582418611-WP58PNT0THQBUGPA1D5M/db7bf9b8-2975-4347-917a-102f19f042a0.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Vacuuming the Red Carpet - a Paen for the Sma… <span class="da">— Bradford Smith</span></div><div class="di" onclick="location.href='/articles/'" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1767125279251-IC2UYQCG9YRSXCLQ2T55/How-Substance-Abuse-Affects-Mental-Health-1536x1229.webp" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Grace for the Mind: The Christian and Mental … <span class="da">— Bradford Smith</span></div>
-        <div style="padding:.5rem 1rem;border-top:1px solid rgba(212,175,55,0.15);margin-top:.3rem">
-          <a class="di" href="/articles/" style="color:var(--gold);font-size:.72rem;letter-spacing:.08em">View all articles →</a>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/img-101.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Not Forgotten. Not Overlooked. — If Only One</title>
+
+    <meta property="og:title" content="Not Forgotten. Not Overlooked." />
+    <meta
+      property="og:description"
+      content="Read 'Not Forgotten. Not Overlooked.' by Summer Martin on If Only One Ministry."
+    />
+    <meta property="og:image" content="https://ifonly.one/nf-img-1.png" />
+    <meta
+      property="og:url"
+      content="https://ifonly.one/articles/notforgotten.notoverlooked"
+    />
+    <meta property="og:type" content="article" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Not Forgotten. Not Overlooked." />
+    <meta
+      name="twitter:description"
+      content="Read 'Not Forgotten. Not Overlooked.' by Summer Martin on If Only One Ministry."
+    />
+    <meta name="twitter:image" content="https://ifonly.one/nf-img-1.png" />
+
+    <script>
+      window.location.replace("https://ifonly.one/articles/#art-nf");
+    </script>
+  </head>
+  <body>
+    <div
+      style="
+        background: #090606;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem;
+        font-family: &quot;Inter&quot;, sans-serif;
+        color: var(--cream);
+      "
+    >
+      <div>
+        <p style="font-size: 1.1rem; margin-bottom: 1rem">
+          Opening the article route...
+        </p>
+        <p style="font-size: 0.85rem; color: var(--muted)">
+          If your browser does not redirect automatically,
+          <a
+            href="/articles/#art-nf"
+            style="color: var(--gold); text-decoration: underline"
+            >click here to read</a
+          >.
+        </p>
       </div>
-    </li>
-    <li><a class="nb" href="/contact/">Contact</a></li>
-  </ul>
-</nav>
-<div style="background:#090606;min-height:100vh;padding-top:66px">
-  <div style="max-width:760px;margin:0 auto;padding:3rem 1.8rem 5rem">
-    <a href="/articles/" style="display:inline-block;background:none;border:1px solid rgba(212,175,55,0.4);color:var(--gold);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;padding:.4rem 1rem;border-radius:2px;cursor:pointer;margin-bottom:2.5rem;font-family:'Inter',sans-serif;text-decoration:none">&#8592; Back to Articles</a>
-    <div style="width:100%;height:280px;background-image:url(/nf-img-1.png);background-size:cover;background-position:center;border-radius:6px;margin-bottom:2rem;border:1px solid rgba(212,175,55,0.2)"></div>
-    <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:600;color:var(--cream);line-height:1.2;margin:0 0 .5rem">Not Forgotten. Not Overlooked.</h1>
-<p style="font-size:.82rem;color:var(--gold);letter-spacing:.14em;text-transform:uppercase;margin:0 0 2.2rem">By Summer Martin</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">"Women are inferior to men." "Christianity is oppressive and patriarchal." "The Bible silences women." "Christianity limits women's potential."</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">These are just a few of the claims I have heard throughout my thirty-eight years of life. Honestly, it baffles me.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Yes, I know that the living and active Word of God is folly to those who do not believe. But I've even heard these things from people who claim to be believers. And it's simply not the God I encounter in Scripture.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">I see a God with a soft spot for His daughters.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">When I open my Sword, I do not see a God who ignores women, sidelines women, or treats women as second-class citizens. I see a God who consistently lifts women up and uses them for His purposes. He does not leave them. He does not forsake them. He notices the overlooked. He hears the cries of the brokenhearted. He repeatedly chooses women&mdash;often unlikely women&mdash;to play significant roles in His redemptive story.</p>
-<img src="/nf-img-1.png" alt="Rahab at the wall of Jericho" style="width:100%;display:block;object-fit:cover;border-radius:8px;border:1px solid rgba(212,175,55,0.2);box-shadow:0 4px 24px rgba(0,0,0,0.5);margin:1.8rem 0">
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Take Rahab, for example <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Joshua 2:1&ndash;24; Hebrews 11:31)</span>. A Canaanite. A prostitute. An outsider to the covenant people of God. Yet when her faith was placed in the Lord, she was not merely spared. She was welcomed. Redeemed. Grafted into the people of God. She even became part of the lineage that would lead to Christ Jesus Himself <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Matthew 1:5)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Rahab's past never determined who God saw her as.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Just like today, we can look at people and remember who they used to be. We may have witnessed their failures, their rebellion, or their brokenness. But that was then. The past is not the whole story. Men have a past just like women do, and it doesn't disqualify them from being redeemed and useful in God's kingdom. And guess what? It doesn't disqualify women either.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Then you have my ladies Deborah and Jael.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Deborah was a prophetess and judge in Israel <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Judges 4:4&ndash;10)</span>. Men in Israel came to her for wisdom, counsel, and judgment. Men. Coming to a woman appointed by God for that purpose.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">And Jael <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Judges 4:17&ndash;22)</span>. An ordinary housewife going about her ordinary day when God chose to use her in an extraordinary way. Through her courage, God secured victory for Israel. A woman. An "ordinary housewife."</p>
-<img src="/nf-img-2.png" alt="Hannah praying and with Samuel" style="width:100%;display:block;object-fit:cover;border-radius:8px;border:1px solid rgba(212,175,55,0.2);box-shadow:0 4px 24px rgba(0,0,0,0.5);margin:1.8rem 0">
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Hannah literally poured herself out before the Lord, so much so that the priest thought she was drunk <span style="color:rgba(212,175,55,0.8);font-size:.9em">(1 Samuel 1:9&ndash;20)</span>. She knew God was a God who saw her and heard her. And guess what? God granted her prayer and then used Samuel for His purposes. Hannah became the instrument God used to bring Samuel into the world at exactly the right place and the right time.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Ruth was a Moabite woman who married into an Israelite family and put her faith in the Lord <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Ruth 1:16&ndash;17)</span>. Through God's providence, she became part of the lineage that would ultimately lead to Jesus <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Ruth 4:13&ndash;17; Matthew 1:5)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Esther risked her life to save her people <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Esther 4:13&ndash;16)</span>. Mary was entrusted to carry the Messiah <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Luke 1:26&ndash;38)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">And then there was Salome.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">While many focus on the disciples, Salome was among the faithful women who followed Jesus, ministered to Him, witnessed His crucifixion, and came to the tomb on resurrection morning <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Mark 15:40&ndash;41; Mark 16:1&ndash;8)</span>. When many others had scattered in fear, she remained near her Savior. Her faithfulness placed her among the first witnesses to the empty tomb along with Mary Magdalene&mdash;the greatest news in human history.</p>
-<img src="/nf-img-3.png" alt="Women at the empty tomb" style="width:100%;display:block;object-fit:cover;border-radius:8px;border:1px solid rgba(212,175,55,0.2);box-shadow:0 4px 24px rgba(0,0,0,0.5);margin:1.8rem 0">
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Lydia became the first recorded convert in Europe and opened her home for the advancement of the Gospel <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Acts 16:11&ndash;15, 40)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">And then there are women some people may not even remember.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Shiphrah and Puah, the Hebrew midwives who risked their lives to save the sons of Hebrew women after Pharaoh commanded that they be killed <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Exodus 1:15&ndash;21)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">The daughters of Zelophehad, who approached Moses concerning their inheritance rights. Rather than dismissing them, God affirmed their request <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Numbers 27:1&ndash;11)</span>.</p>
-<img src="/nf-img-4.png" alt="A prophetess speaking to the king" style="width:100%;display:block;object-fit:cover;border-radius:8px;border:1px solid rgba(212,175,55,0.2);box-shadow:0 4px 24px rgba(0,0,0,0.5);margin:1.8rem 0">
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Huldah, a prophetess during King Josiah's reign <span style="color:rgba(212,175,55,0.8);font-size:.9em">(2 Kings 22:14&ndash;20)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Priscilla <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Acts 18:24&ndash;26)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Phoebe <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Romans 16:1&ndash;2)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Dorcas <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Acts 9:36&ndash;42)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Joanna <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Luke 8:1&ndash;3; 24:10)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">The Samaritan woman at the well <span style="color:rgba(212,175,55,0.8);font-size:.9em">(John 4:1&ndash;42)</span>.</p>
-<img src="/nf-img-5.png" alt="Jesus and the Samaritan woman at the well" style="width:100%;display:block;object-fit:cover;border-radius:8px;border:1px solid rgba(212,175,55,0.2);box-shadow:0 4px 24px rgba(0,0,0,0.5);margin:1.8rem 0">
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">The Bible's pages are filled with women like these&mdash;not perfect women, but faithful women. Courageous women. Repentant women. Generous women. Women whom God saw, called, equipped, and used for His glory.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">He met Hagar in the wilderness <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Genesis 16:7&ndash;13)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">He met Hannah in grief <span style="color:rgba(212,175,55,0.8);font-size:.9em">(1 Samuel 1:9&ndash;20)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">He met Ruth in widowhood <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Ruth 1:16&ndash;17)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">He met Mary in humble obedience <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Luke 1:38)</span>.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Far from pushing women to the margins, God repeatedly places them right in the middle of His unfolding story of redemption. Again and again, God demonstrates that women are not an afterthought in His kingdom.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">They never were.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">And perhaps nowhere do we see God's heart for women more clearly than in Jesus Himself.</p>
-<img src="/nf-img-6.png" alt="Woman reaching to touch the hem of Jesus garment" style="width:100%;display:block;object-fit:cover;border-radius:8px;border:1px solid rgba(212,175,55,0.2);box-shadow:0 4px 24px rgba(0,0,0,0.5);margin:1.8rem 0">
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">A woman who had suffered from a bleeding disorder for twelve years reached out and touched the hem of His garment <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Mark 5:25&ndash;34)</span>. For twelve years she had lived with pain, isolation, and the label of being unclean. Yet when Jesus stopped and spoke to her, He did not call her "unclean." He did not call her "outcast."</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">He called her "Daughter."</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">"Daughter, your faith has made you well; go in peace" <span style="color:rgba(212,175,55,0.8);font-size:.9em">(Luke 8:48)</span>.</p>
-<p style="font-family:'Cormorant Garamond',serif;font-size:1.45rem;font-weight:700;color:var(--gold);text-align:center;margin:.15rem 0;letter-spacing:.04em;text-shadow:0 0 18px rgba(212,175,55,0.3)">Daughter.</p>
-<p style="font-family:'Cormorant Garamond',serif;font-size:1.45rem;font-weight:700;color:var(--gold);text-align:center;margin:.15rem 0;letter-spacing:.04em;text-shadow:0 0 18px rgba(212,175,55,0.3)">Not forgotten.</p>
-<p style="font-family:'Cormorant Garamond',serif;font-size:1.45rem;font-weight:700;color:var(--gold);text-align:center;margin:.15rem 0;letter-spacing:.04em;text-shadow:0 0 18px rgba(212,175,55,0.3)">Not overlooked.</p>
-<p style="font-family:'Cormorant Garamond',serif;font-size:1.45rem;font-weight:700;color:var(--gold);text-align:center;margin:.15rem 0;letter-spacing:.04em;text-shadow:0 0 18px rgba(212,175,55,0.3)">Not unwanted.</p>
-<p style="font-family:'Cormorant Garamond',serif;font-size:1.45rem;font-weight:700;color:var(--gold);text-align:center;margin:.15rem 0;letter-spacing:.04em;text-shadow:0 0 18px rgba(212,175,55,0.3)">Daughter.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">That single word tells us so much about the heart of Christ.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">So when I hear people claim that Christianity diminishes women, I cannot help but wonder if we are reading the same Bible.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">Because from Genesis to Revelation, I see a God who sees women, hears women, redeems women, equips women, and uses women for His glory. I see women woven throughout the pages of Scripture&mdash;not as an afterthought, but as image-bearers, disciples, servants, witnesses, mothers, leaders, prophets, and daughters of the King.</p>
-<p style="font-size:.97rem;color:rgba(245,245,247,0.88);line-height:1.85;margin:0 0 1.1rem">And that is exactly what we still are today.</p>
-<p style="font-family:'Cormorant Garamond',serif;font-size:1.45rem;font-weight:700;color:var(--gold);text-align:center;margin:.15rem 0;letter-spacing:.04em;text-shadow:0 0 18px rgba(212,175,55,0.3)">Daughters.</p>
-<div style="clear:both"></div>
-    <div style="clear:both;margin-top:3rem;padding-top:1.5rem;border-top:1px solid rgba(212,175,55,0.2);text-align:center">
-      <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--gold);letter-spacing:.06em">If Only One</p>
-      <p style="font-size:.75rem;color:var(--muted);margin-top:.3rem">Written by Summer Martin</p>
     </div>
-  </div>
-</div>
-<script>
-function tdd(id){const el=document.getElementById(id);const was=el.classList.contains('open');document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));if(!was)el.classList.add('open');}
-document.addEventListener('click',e=>{if(!e.target.closest('.dw'))document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));});
-</script>
-</body>
+  </body>
 </html>
