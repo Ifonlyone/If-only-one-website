@@ -1,0 +1,294 @@
+{
+  "slugToThumbCdn": {
+    "art-nf": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1774052721074-3CEUIXP8TAS0Q7THQGRN/Article-vertical+jpeg.jpg",
+    "the-navigators-and-other-things-that-are": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1771865923719-EDJJ8KWNUNAS3SFLBENH/cover.png",
+    "what-makes-waiting-so-hard--me": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1769794341346-A73V5LY93JNI9NET0QFZ/Picture1.png",
+    "vacuuming-the-red-carpet---a-paen-for-th": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1768582418611-WP58PNT0THQBUGPA1D5M/db7bf9b8-2975-4347-917a-102f19f042a0.jpg",
+    "grace-for-the-mind--the-christian-and-me": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1767125279251-IC2UYQCG9YRSXCLQ2T55/How-Substance-Abuse-Affects-Mental-Health-1536x1229.webp",
+    "what-does-it-mean-to--sin-willfully----h": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1767127146640-PMTSZXV5UEXGAZ7TDA60/Soldier+Kneeling.jpg",
+    "the-church--more-than-a-building": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1761319582550-3A6WJ0WCUXCYEGFBI9FM/Picture1.jpg",
+    "the-burden-of-bible-reading": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1736978611151-9R03WNDSKTTZ2TE1DHIF/Embarkation_of_the_Pilgrims.jpg",
+    "if-you-love-me--you-ll-obey-me-----not": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1721332974445-Z4JZGIGD1NKI60L86NPE/1.jpg",
+    "to-the-christian-wrestling-with-sin-and": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1719788173445-SW0KGFP3VDT0XNU9RIHJ/stormseeker-oXo6IvDnkqc-unsplash.jpg",
+    "the-red-letter-bible-and-the-doctrine-of": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1716384993891-M48K18YHHHHAGL1ABWWO/444783620_3770799873154718_5944481254166371378_n.jpg",
+    "no-christian--god-is-not-going-to-judge": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1712334448417-J4YTAS2WYET9L664QWGC/Christ_among_the_Pharisees.jpg",
+    "why-matthew-7-21-23-is-not-the-scariest": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1709419853868-IAR7GR0WR6U40L4LC90U/Bloch-SermonOnTheMount.jpg",
+    "which-bible-translation-should-you-read": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1709411234441-OT1WK6A1TY47Z3OKBZ97/429812929_3486572858320810_4457482052143370549_n.jpg",
+    "it-s-okay-not-to-be-okay--okay": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1709260489620-7BX8YJ35LQ7C6YQ47SSK/kelly-sikkema-1hUldA7n5Yw-unsplash.jpg",
+    "total-depravity-and-why-it-matters": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1705614947681-QT3I9P8L0SM1LTQESBE2/1.jpg",
+    "suffer-to-the-glory-of-god": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1705018788494-7TKNTA1ETYKND2A5H3TI/L%C3%A9on_Bonnat_-_Job.jpg",
+    "yes-to-female-deacons-a-comprehensive-st": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1701989987698-F4B7UIIIJGRZWNJM4STO/vittore-carpaccio-saint-stephen-is-consecrated-deacon-01-72d15b-1024.jpg",
+    "you-re-suffering-a-different-look": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1701389518563-5GS69PG0N6G0LPACNVNY/adrian-swancar-1v1s1_HFerY-unsplash.jpg",
+    "church-hurt-a-pastor-s-wife-s-perspectiv": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1701389486905-ZDJHJ8C2BOYELNXUU9PK/group1.jpg",
+    "israel-vs--hamas-an-effort-at-lazy-reduc": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1697573229126-QN3NYL4QAY2IFEFIQZPS/Flag_of_Hamas.svg.png",
+    "something-is-wrong-with--what-is-a-woman": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1694126272560-ZMDUNW7PMZJHFUCNU597/woman1.png",
+    "the-gospel-famine-of-contemporary-christ": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1691695194762-6745NV32QDBUUGBRLIX4/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg",
+    "varying-degrees-of-reward-in-heaven-work": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1690502219886-E8AYYN7SI1KUKLE49VI9/davide-cantelli-H3giJcTw__w-unsplash.jpg",
+    "revival-fatigue-a-cold-take": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1688697568672-Z7G86FPGZ6AXY50GT02W/elisabeth-wales-YFNsPli5o4E-unsplash.jpg",
+    "biblical-masculinity-is-toxic-masculinit": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1686430220419-MTB12OGIQ5TIJR5QOM81/men2.jpg",
+    "america-and-the-slow-death-of-godless-de": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1684466035609-LGL899SF6SRYO3504C6Q/presidents.jpg",
+    "the-three-layers-of-biblical-discipleshi": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1679613759903-SK3OCF3Y4GALJCVXYZ2C/Presentation1.jpg",
+    "why-the-end-of-war-hurts-but-doesn-t-hav": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1678417836085-HF1CNIIPHBCSUDHTHXRY/U.S._Army_Rangers%2C_assigned_to_2nd_Battalion%2C_75th_Ranger_Regiment%2C_prepare_for_extraction_on_Fort_Hunter_Liggett%2C_California%2C_Jan._30%2C_2014.jpg",
+    "global-gospel-proclamation-and-the-olive": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1677204633280-BXEFDIMUQI61NXDNGXZK/800px-Crucifixion_of_Saint_Peter-Caravaggio_%28c.1600%29.jpg",
+    "the-olivet-discourse-and-a-study-in-cont": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1675284263004-5YJLS3UUIKPEV74T6TKK/John_Martin_-_The_Last_Judgement_-_Google_Art_Project.jpg",
+    "god--i-hate-marijuana": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1674774094168-RXURKSQXB232VZ3QRXF4/ahmed-zayan-1svWCsnnrT8-unsplash.jpg",
+    "the-gaiety-of-men-loving-men": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1673390782812-9EJJEU1DPVOSMI4XWM5C/soldier.jpg",
+    "why-you-won-t-keep-your-resolutions": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1672257613153-2DMXWIGGKWYWR9ACZ04F/alex-mccarthy-a6FHROHuQ9o-unsplash.jpg",
+    "youth-ministry-isn-t-working": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1668030202927-F519B556C1UM1IL86HIW/jesus-loves-austin-3HNDwFKDFeA-unsplash+%281%29.jpg",
+    "church-hurt-the-worst-kind-of-hurt": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1658439452999-1KBLKG5UH52W3CUH6CUT/church+hurt+cover.jpg",
+    "the-good-dude-the-worst-kind-of-dude": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1658376583720-EE430U4O246UYDFJCSEG/good+dude+cover.jpg",
+    "the-power-of-a-godly-father": "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1658376348176-MMMTR140SMHC22IXKE47/6.jpg"
+  },
+  "slugToBodyImgs": {
+    "the-navigators-and-other-things-that-are": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/94854e14-e66b-40bc-ae69-be73e0834743/cover.png?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/4be7ccbd-311f-42a7-9e39-921cca890a6d/internal.png?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/4271de30-8808-4ef7-9b6e-29af43ac951d/church.png?format=original"
+    ],
+    "what-makes-waiting-so-hard--me": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/5f599cf1-494e-43eb-9736-869b386e2d50/Picture1.png?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/ae5bf0fc-84b5-4898-8a96-c53eb4f27328/Picture2.png?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/5aee8a5c-55a9-423d-a0de-d54721373c62/Picture3.png?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/fb751862-4ef9-4e16-bfe3-daeff1806194/Picture4.png?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/64c9cff5-e787-41bd-8549-9bd1b6da07ab/Picture5.png?format=original"
+    ],
+    "vacuuming-the-red-carpet---a-paen-for-th": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/c0daec73-bb6d-4f58-9d70-d6320a8771e1/196ae02e-62f6-44b9-bb73-f19ca47f30b2.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/5f894743-62f3-48cd-b3de-7c6c07aaa666/b564adde-53ec-4dd9-bbb7-9075763f4d8f.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/e365c75d-cf03-41ee-a9a1-fdaf396fe935/f0fc9e1c-9146-488c-919b-b796fe0d6ed2.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/214ef602-511d-4db3-a21e-493a3eef309e/52e75e31-5280-4430-9763-affc4a5eb41e.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/7fcd0f24-245f-4606-8091-f82da319a0d4/pulpit.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/f7a6f9f2-67f7-4673-9ed5-335e4a76bbb6/0c8be5fb-d8c4-41f6-b957-09d0452436ca.jpg?format=original"
+    ],
+    "grace-for-the-mind--the-christian-and-me": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1f40723e-28a1-4d4e-81e4-456f378c5539/Mental-Health-480x384.webp?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/bc5b364b-4c01-41e5-bff5-5fd36421c89f/How-Substance-Abuse-Affects-Mental-Health-1536x1229.webp?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/300aa3c9-89e2-4d4d-a7ce-c5df55427101/rsz_depression.jpeg?format=original"
+    ],
+    "what-does-it-mean-to--sin-willfully----h": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/25def245-6b11-47ee-8776-53efd3590060/0d2428db.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/35d63492-12f2-497a-9f46-8090a954150b/img_05_13_20_A_large.webp?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b53b4b50-f80f-44b5-8723-cc3944d31358/7201105-e1741807509673.webp?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b140999a-f4c3-4d4b-a326-6892e532c1e2/Soldier+Kneeling.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/0e6c9106-ab67-4e4a-9e7b-5f2390b90c89/download.webp?format=original"
+    ],
+    "the-church--more-than-a-building": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/6c8065d0-072e-4b83-b36c-c441722f40d5/Picture1.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/8013e72e-a61f-4c1c-84a2-2df01cb65e83/Picture2.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/112cf19c-f0bd-4e75-93fb-b4a243774aaa/Picture3.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/c2459c1f-756d-4f79-91df-50b2be02b5ce/Picture4.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/49a2d837-7c48-44a4-a6fa-a053f5e7a6ee/Picture5.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/c6bcc6ac-1bfb-40b3-823d-43d43639a9eb/Picture6.jpg?format=original"
+    ],
+    "the-burden-of-bible-reading": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/7429df42-e0f8-433e-a25f-828f6991ddd3/Holy_Bible_The_Improved_Domestic_Bible_London_Schuyler_Smith_%26_Co_1880_Maps.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b36ca084-12ba-4f51-9b30-8551d07bfddc/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/ae3d4a4a-6d84-482e-81af-ff10fa053cc7/800px-Lutherbibel.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/d13f0798-bba2-423f-82d5-2a152c6e7e0a/Bibel-1.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/06bb6235-947c-46d2-a5a3-e2a740758f60/800px-KJV-King-James-Version-Bible-first-edition-title-page-1611.jpg?format=original"
+    ],
+    "if-you-love-me--you-ll-obey-me-----not": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/19964832-fc9c-45cc-8c8e-ae06986b22ae/2.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/92cd5d8a-8edf-4533-948a-5443ffd6711a/1.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/ced351b6-eea6-4a22-9209-c948f0e14b72/4.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/f2c01c07-314d-4fdd-8967-14031f6cd59a/3.jpg?format=original"
+    ],
+    "to-the-christian-wrestling-with-sin-and": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/2a72b2d5-2036-48a8-b39b-26143d0bfde6/engin-akyurt-ZeuDhLpjgsA-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/ca52e73f-0807-4c9d-92d5-a8e799ab5f3e/stormseeker-rX12B5uX7QM-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/4c5af093-7000-43eb-89f3-b1b86feeda7a/stormseeker-oXo6IvDnkqc-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/40268a47-1c0d-455f-9ea6-315f417107f6/blake-cheek-fnd1hZOuSUE-unsplash.jpg?format=original"
+    ],
+    "the-red-letter-bible-and-the-doctrine-of": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/445cdfff-8685-41ef-b9fd-3ad0192d3e4a/444783620_3770799873154718_5944481254166371378_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/6ed422a0-2af1-4bee-be0b-44782dbf5ceb/435899557_1127275085221405_68938560907159312_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/3e62b0e7-739d-4cc9-9adb-fa50d60f3edf/436594328_481027897609517_3329193457340263485_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/6dc3682d-e818-43e9-bcbf-3a56c54a1ff0/444760923_1456472881925138_8501246669080299780_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/083c6839-9657-460f-ac74-258423c9525a/444782417_1587140982126866_7993368110296875656_n.jpg?format=original"
+    ],
+    "no-christian--god-is-not-going-to-judge": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/6d1dbc0b-f23c-454c-827a-1a22f87cda18/JesusPharisees.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/3fba1384-bfa2-4d94-87ad-8c6277255c30/800px-Christus_im_Hause_des_Pharis%C3%A4ers_Jacopo_Tintoretto.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/3f2fa3e5-0aae-4566-a933-66cf7cf1bbe5/Brooklyn_Museum_-_Woe_unto_You%2C_Scribes_and_Pharisees_%28Malheur_%C3%A0_vous%2C_scribes_et_pharisiens%29_-_James_Tissot.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/0c51bfda-ee87-495b-9f02-e9e9cd4f6e17/John_Martin_-_The_Last_Judgement_-_Google_Art_Project.jpg?format=original"
+    ],
+    "why-matthew-7-21-23-is-not-the-scariest": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b42ec5b0-a491-409e-9f4d-023d63451050/800px-TissotBeatitudes.jpg?format=original"
+    ],
+    "which-bible-translation-should-you-read": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/5f78096f-d4c0-493e-b8a9-8574ce6f07eb/429414978_1065306287873382_7678691624250439172_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/cae3c02e-3897-43bc-a9d6-b215b711108e/429457685_957279988567767_7734100076413779705_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/65d511b6-c605-4d10-9377-55a852b3b9c1/types-of-bible-translations.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/6c3a2500-632f-4c39-b417-3d0e320b47c0/428923968_1472552343346873_8645669013360263185_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/d6471e51-b105-4e33-a4ce-febf85487579/430315165_1131088741263217_3745388411818747366_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/f56c198d-00ba-4eb1-997c-aa080f31a9b2/430879426_926478052318300_2885701185130835003_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/d57302cc-5d11-4725-9925-82496609a3f4/430155443_239988775851822_2320560488069890048_n.jpg?format=original"
+    ],
+    "it-s-okay-not-to-be-okay--okay": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/f55ffbdf-0931-49da-b7dd-8c037618cee5/413946710_338570105798832_3799280136958146305_n+%281%29.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/a15cd54b-b516-45f3-a20f-ef2ff24b3126/olivia-snow-CPPFtCHY6mo-unsplash.jpg?format=original"
+    ],
+    "total-depravity-and-why-it-matters": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/094b5598-4157-4f78-bcb0-93cb6d2d44e6/1.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1febdc5d-fb30-4c3c-b7fe-dcdee6febf08/2.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/a6c4b95d-2833-45ee-8bff-bb39912a622f/3.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/c67dea64-de2d-4598-8a37-5407b21f8b07/4.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/9a1bc839-c00e-4c8f-9e40-cff714da94aa/isaac-van-oosten-the-creation-of-adam-and-eve-with-the-temptation-and-original-477e85-640.jpg?format=original"
+    ],
+    "suffer-to-the-glory-of-god": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/339d477b-2625-45b1-a39f-4d081fc4d0a5/413946710_338570105798832_3799280136958146305_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/2488f618-fdc1-45d4-ad9e-1a2cc8b7e41a/1280px-Job_and_his_friends.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/2efb9777-7cf6-4315-a7b4-be47cb55d439/1280px-SAAM-XX105_1.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/818bcd2e-271c-419b-9b4b-700b8a363e59/ben-white-vtCBruWoNqo-unsplash.jpg?format=original"
+    ],
+    "yes-to-female-deacons-a-comprehensive-st": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/184e7935-bfc9-48e2-9fbb-56d1e02cc0fd/YW033620V_Martyrdom-of-Saint-Stephen.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/a41f5485-be6d-4fae-b441-8f8bcc765275/St_stephen.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/98a79b4a-1e14-4fe7-8556-dd52d5c45d6e/vittore-carpaccio-saint-stephen-is-consecrated-deacon-01-72d15b-1024.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/7d0a5ad6-0a69-4de9-9d61-0b9ba5820fdd/StStephen_GiacomoCavedone.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/20759c1d-724e-4646-ad5a-4f2d4519b257/YW033015V_Martyrdom-of-Saint-Stephen.jpg?format=original"
+    ],
+    "you-re-suffering-a-different-look": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/4ed1593d-f4de-4cb7-8e98-216f8a27c79b/403606977_1065340237836572_2092258365829775623_n.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/c03f7fd8-e8f7-4718-a6aa-7341cb1fa7a3/joshua-earle-yi6dvuynEuo-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/a71e2e75-8c15-47e1-b2c0-bcf2e65aaccb/mishal-ibrahim-jiNgKqKW5W4-unsplash.jpg?format=original"
+    ],
+    "church-hurt-a-pastor-s-wife-s-perspectiv": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/dc4e4dd2-3a72-45f1-aafe-fb6e8d9ab548/ami1.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/a4d20968-8baf-45c5-88e2-1674e5f679e2/gus-moretta-BCyfpZE3aVE-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/072d67a3-8eb9-4157-be05-ff7bd0bef5b3/ismael-paramo-t4Jo0gM296g-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/818bcd2e-271c-419b-9b4b-700b8a363e59/ben-white-vtCBruWoNqo-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b86d4845-41ac-425d-a462-0aaf36627928/group1.jpg?format=original"
+    ],
+    "israel-vs--hamas-an-effort-at-lazy-reduc": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/647872a4-0703-4f00-8544-87e3350d4c31/iason-raissis-ipWYO8pD17A-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/7dc8a5f6-beb8-4ef5-afe4-8601797ea87f/skysports-colin-nate-boyer_5215628.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/0ca4f8ed-3ab1-49af-9f7d-2d52c4cfe836/neal-e-johnson-7MEpOrWx-js-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/d42fdd3a-b29a-4b07-88e1-479154dba43e/laura-siegal-xz6ovEZaeb4-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/20498fde-11c9-4bb4-8120-504048109cd0/800px-Bethlehem-hamasrally.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/e240002b-2eb1-45ac-a324-2ed969bb2ace/ash-hayes-WgeVavC179o-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/0e33b66f-22e4-499b-a528-858b7ee55945/mohammed-ibrahim-9Byl9fDEGlY-unsplash.jpg?format=original"
+    ],
+    "something-is-wrong-with--what-is-a-woman": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/05bb4df5-012f-4f9e-8252-647b15a7520b/Matt_Walsh_%28cropped%29.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/8f86e8e9-4041-44ab-ae28-6df221bec6bd/woman2.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/017054eb-9c25-4456-bb16-26ac97c95ad8/woman4.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/5076396f-b09b-4987-ae8e-99e65f26948d/Lili_Elbe_1926.jpg?format=original"
+    ],
+    "the-gospel-famine-of-contemporary-christ": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/9d24392b-83f0-49a4-91e7-c34011a9b914/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/f71e8396-d2ba-4813-9b83-ea197654202e/a-l-ya631mqQ7Ng-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/e6f1f97e-ecba-4b00-ae72-1f6f28a3a762/edward-cisneros-O6VGnJeWo7c-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/57b2cff2-5cd5-48de-bd9c-c96217c02c15/edwin-andrade-6liebVeAfrY-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/3a211fd5-2230-4af2-8788-6be7f5f59427/edward-cisneros-KoKAXLKJwhk-unsplash.jpg?format=original"
+    ],
+    "varying-degrees-of-reward-in-heaven-work": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/4a4dc447-fbf9-431b-90f2-206de13200a1/Saint_Paul%2C_Rembrandt_van_Rijn_%28and_Workshop_%29%2C_c._1657.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/f21a4d9d-e13c-4f32-a1e2-54218417ae96/800px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/93c3acf7-5287-4b6d-b93b-ea35868144ee/John_Calvin_Museum_Catharijneconvent_RMCC_s84_cropped.png?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/6f484249-109d-4796-bf6b-f98c9d5e1645/Charles_Haddon_Spurgeon_by_Alexander_Melville.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/cfe8f017-57fb-4fa2-b938-93f9f8709166/Rick_Warren_%282016%29.jpg?format=original"
+    ],
+    "revival-fatigue-a-cold-take": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/d5fce07f-1a53-4f03-bad0-b624b4a74a60/priscilla-du-preez-AE-HiADOsW4-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/c2668e1a-da08-4ad0-b24f-16e5b4ec0d1e/claudia-raya-w0ytKTr7mqw-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/7ece0a25-a857-4df2-911d-52e591772125/bennett-tobias-cuqcM_OQTjU-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/75d45656-397d-45a1-96c2-ad577f649b53/gift-habeshaw-P9c2JS_UNDI-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/de7e8375-4be7-4fc5-8cf3-65996c97e77f/priscilla-du-preez-nhH1CAzzgj8-unsplash.jpg?format=original"
+    ],
+    "biblical-masculinity-is-toxic-masculinit": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/065ea6ad-67d6-4a62-9155-dbeb764f30b9/men1.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1a5a92da-25c5-4d84-8dc7-d3207ec329f2/men2.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/23e019b8-2c25-48bd-9bf7-c290d80f330c/men3.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b3deb547-2d59-42c4-82a2-a2297783807d/men4.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/3aaf5a75-4937-40ab-820f-5f897a3d6f35/men5.jpg?format=original"
+    ],
+    "america-and-the-slow-death-of-godless-de": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/149ae73c-08d4-41b0-a3dc-0740993d43e6/vinayak-sharma-uX3r0OzFTIU-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/a686c4bc-1b90-4a1e-b1f8-a3d6f0f096d5/caleb-perez-a6h5e59r15o-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/7d12e146-95d7-4083-8714-001ae8adc2b5/tabrez-syed-dbc9DGSJzKo-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/abf521cb-d23e-46e0-a3a6-e285349d4ec3/brandon-mowinkel-PSY_KuMcTJU-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/7486f82e-919b-4323-8ba6-cd456a50e7d7/Constitution_of_the_United_States%2C_page_1.jpg?format=original"
+    ],
+    "the-three-layers-of-biblical-discipleshi": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/dad7069d-bdec-4cf1-bc55-ad0c43d2a571/Brooklyn_Museum_-_The_Exhortation_to_the_Apostles_%28Recommandation_aux_ap%C3%B4tres%29_-_James_Tissot.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/ac8540d9-592e-4834-99c4-05cfb782e0f6/Bloch-SermonOnTheMount.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/d853e300-5cbb-4f8e-a470-c401b634a62b/%C3%9Altima_Cena_-_Juan_de_Juanes.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/f35852b4-65fd-49ba-a722-0b354bfc90cf/Transfigurationbloch.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/e754b67a-cc81-495c-acb0-87e8282dca46/Christ_Taking_Leave_of_the_Apostles.jpg?format=original"
+    ],
+    "why-the-end-of-war-hurts-but-doesn-t-hav": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/ce7efd9b-4de0-4dc2-a465-6f4a2f206530/U.S._Army_Rangers%2C_assigned_to_2nd_Battalion%2C_75th_Ranger_Regiment%2C_prepare_for_extraction_on_Fort_Hunter_Liggett%2C_California%2C_Jan._30%2C_2014.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/eb62645a-8894-409c-8e9d-6f2e818e1312/ODA525.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/2c800c8c-a320-462a-9424-fc61352dd546/Defense.gov_photo_essay_091119-A-5713F-461.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/f6167247-334a-4b3a-9a5d-0d3f38ea3868/1920px-MH-60M_DAP_firing_2.75_inch_rockets_at_a_test_ground.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b7e534fc-dfe9-46f0-8921-c9ee8bfe2a1f/75th_Ranger_Regiment_conducing_operations_in_Iraq%2C_26_April_2007.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/8e3a9093-856e-4db9-b2b0-690d94ba4b01/Rangers_afg.jpg?format=original"
+    ],
+    "global-gospel-proclamation-and-the-olive": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/dd61b1dd-381d-4f29-bff7-2a4ffdc74474/Siemiradzki_Christian_Dirce.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/fdf39e59-fb0c-4cec-b2d5-f0a8d3d92b75/800px-Crucifixion_of_Saint_Peter-Caravaggio_%28c.1600%29.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/7481e76d-bd5a-4699-a2ba-d5bfb1dfe56a/Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_The_Christian_Martyrs%27_Last_Prayer_-_Walters_37113.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/a7890313-d579-474a-b485-0003e4d928dd/The_Death_of_Stephen_by_Gustave_Dor%C3%A9.jpg?format=original"
+    ],
+    "the-olivet-discourse-and-a-study-in-cont": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/eef94fb2-bfc0-4012-aff7-18db77039f85/John_Martin_-_The_Last_Judgement_-_Google_Art_Project.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b3672473-3410-4f77-8209-570d5369a6d0/levi-meir-clancy-LheHIV3XpGM-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/34ced6cd-bba5-4dc6-b681-967a5d0b8d87/800px-Millennial_views.svg.png?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/0eb5b655-0fbf-48b8-b643-c18318bb48be/Illustrations_to_Robert_Blair%27s_The_Grave_%2C_object_12_The_Day_of_Judgment.jpg?format=original"
+    ],
+    "god--i-hate-marijuana": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/8e4b2b57-a2dc-40ff-852c-0179d197bffb/ahmed-zayan-1svWCsnnrT8-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/9d62d031-498e-45f9-a12a-61b21ffcc7c1/shot-by-cerqueira-XsHaOba9Vy0-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/4c948d0c-5ccb-41bd-bb6b-6626dcd0fcd1/paje-victoria-9nqaWIpWSRg-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/0c200a72-e8cf-4155-9312-74183d84fc1e/arun-sharma-CDOgLrRnqok-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/dccb56ea-ad56-4bd8-92bf-e5c7a792eb6b/towfiqu-barbhuiya-0ITvgXAU5Oo-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/fcb1d9d8-d8f2-4ce9-b396-011372d92e72/ahmed-zayan-hIM6eytF5T4-unsplash.jpg?format=original"
+    ],
+    "the-gaiety-of-men-loving-men": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/58936722-b5ed-4d55-b177-bdc32304a321/Picture1.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1fc96d32-5767-4bad-af45-5ea8f1c163bd/david+and+goliath.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/52fbdb24-a871-4954-8f55-9598faed5e44/22097.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/33ddf592-4914-4365-b491-a1e72438a95c/Soldiers_Holding_Hands.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/170227ef-d36d-40f7-aa88-b91503c983d0/manlove10.jpg?format=original"
+    ],
+    "why-you-won-t-keep-your-resolutions": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/a38ac942-b255-4805-bcde-e725e251da3b/alex-mccarthy-a6FHROHuQ9o-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/2df0d30c-6300-460e-b1aa-82a1e859b844/tim-mossholder-UL0ll-18ItU-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/469a1a93-0a06-43da-94bd-77a47bf05b65/mufid-majnun-NXVpu0cNRYY-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b0874319-f875-464e-ac5a-5f522b13e740/farhad-ibrahimzade-qgGc_1a6xGc-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/dccb56ea-ad56-4bd8-92bf-e5c7a792eb6b/towfiqu-barbhuiya-0ITvgXAU5Oo-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/43309969-1157-4008-afe6-f92c2b01c294/victor-freitas-nA0UDNDbxys-unsplash.jpg?format=original"
+    ],
+    "youth-ministry-isn-t-working": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/7a0cdb3f-a432-48bf-a29e-b8d41ea933ec/jeremy-mcknight-ix9I7kfMpcc-unsplash+%281%29.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/8ad92f26-a0d3-40ae-acfe-37d7a0937b02/jesus-loves-austin-iYgpppgwT_o-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/ef76aa06-6e26-4eee-84f6-110972dacedc/vince-fleming-afrNpD1wKZU-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/4fe25656-625b-4b28-a644-61e6ed8e5305/jesus-loves-austin-vA95WJnVNWk-unsplash.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/367cee11-7b03-42a5-b1c8-b0f11fabf29b/rachel-coyne-1TuZF_ma87A-unsplash.jpg?format=original"
+    ],
+    "church-hurt-the-worst-kind-of-hurt": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/206d10ac-be84-4c37-95a8-59ff68ce95d0/church+hurt+cover.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/5c40171c-23e0-4d5d-92cd-96463045cc76/church+hurt+1.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b41d5606-a5c9-4fec-9b54-30b21cee382c/church+hurt+2.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/ab408d31-5777-4101-9885-bb4d95c38df7/church+hurt+3.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/364b30e3-1441-4639-9fd2-f50ff61731f4/church+hurt+4.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/70af69fb-1534-47bc-bd01-2b4c67e65f5d/12.jpg?format=original"
+    ],
+    "the-good-dude-the-worst-kind-of-dude": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/9dd38fba-3db7-4632-948b-59c866abedb2/good+dude+cover.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/97e38998-ad94-4154-ac80-0150dca3f102/good+dude+1.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/75e32e0a-6cf3-4e3a-a485-2e2b5481d8ca/good+dude+3.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/bc9e92cc-032b-4d5d-bb32-123035f3cc46/good+dude+4.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/b054ec39-609d-430c-bf98-45bba4412fc9/good+dude+5.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/931fc511-42dd-4a01-99e0-6f306edad0f6/the+good+dude+6.jpg?format=original"
+    ],
+    "the-power-of-a-godly-father": [
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/4ed81de9-28f2-475c-ae0a-cd8aeef8a9e9/6.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/a36385e5-8f00-4450-816f-3119047cf6e2/7.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/674ca0ef-a7db-4489-9640-d1825a8dd469/8.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/cb42b9f3-586e-4c06-b7be-a5ffe6efc9d7/9.jpg?format=original",
+      "https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/70af69fb-1534-47bc-bd01-2b4c67e65f5d/12.jpg?format=original"
+    ]
+  }
+}

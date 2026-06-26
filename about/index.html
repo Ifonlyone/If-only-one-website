@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="/img-101.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <title>About — If Only One</title>
+</head>
+<body>
+<nav id="sitenav">
+  <div class="brand" onclick="location.href='/'" >
+    <img src="/img-102.png" alt="If Only One">
+    <b>If Only One</b>
+  </div>
+  <ul class="nl">
+    <li><a class="nb" href="/">Home</a></li>
+    <li><a class="nb" href="/about/">About</a></li>
+    <li><a class="nb" href="/give/">Give</a></li>
+    <li><a class="nb" href="/books/">Books</a></li>
+    <li class="dw">
+      <button class="nb" onclick="location.href='/articles/'" style="padding-right:.3rem">Articles</button><button class="nb" onclick="tdd('ddar')" style="padding:.38rem .3rem;font-size:.7rem">▾</button>
+      <div class="dm wide" id="ddar">
+        <div class="dl">✦ New</div>
+        <div class="di hl" onclick="go('art-nf')" style="display:flex;align-items:center"><img src="/nf-img-1.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Not Forgotten. Not Overlooked. <span class="da">— Summer Martin</span></div>
+        <div class="dl">Recent</div>
+        <div class="di" onclick="go('the-navigators-and-other-things-that-are')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1771865923719-EDJJ8KWNUNAS3SFLBENH/cover.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">The Navigators and Other Things That Are Not … <span class="da">— Bradford Smith</span></div><div class="di" onclick="go('what-makes-waiting-so-hard--me')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1769794341346-A73V5LY93JNI9NET0QFZ/Picture1.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">What makes waiting so hard? Me. <span class="da">— Summer Martin</span></div><div class="di" onclick="go('vacuuming-the-red-carpet---a-paen-for-th')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1768582418611-WP58PNT0THQBUGPA1D5M/db7bf9b8-2975-4347-917a-102f19f042a0.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Vacuuming the Red Carpet - a Paen for the Sma… <span class="da">— Bradford Smith</span></div><div class="di" onclick="go('grace-for-the-mind--the-christian-and-me')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1767125279251-IC2UYQCG9YRSXCLQ2T55/How-Substance-Abuse-Affects-Mental-Health-1536x1229.webp" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Grace for the Mind: The Christian and Mental … <span class="da">— Summer Martin</span></div><div class="di" onclick="go('what-does-it-mean-to--sin-willfully----h')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1767127146640-PMTSZXV5UEXGAZ7TDA60/Soldier+Kneeling.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">What does it mean to “sin willfully”? (Hebrew… <span class="da">— Bradford Smith</span></div><div class="di" onclick="go('the-church--more-than-a-building')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1761319582550-3A6WJ0WCUXCYEGFBI9FM/Picture1.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">The Church: More Than a Building <span class="da">— Jessie Dukes</span></div><div class="di" onclick="go('the-burden-of-bible-reading')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1736978611151-9R03WNDSKTTZ2TE1DHIF/Embarkation_of_the_Pilgrims.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">The Burden of Bible Reading <span class="da">— Bradford Smith</span></div>
+        <div style="padding:.5rem 1rem;border-top:1px solid rgba(212,175,55,0.15);margin-top:.3rem">
+          <a class="di" href="/articles/" style="color:var(--gold);font-size:.72rem;letter-spacing:.08em">View all articles →</a>
+        </div>
+      </div>
+    </li>
+    <li><a class="nb" href="/contact/">Contact</a></li>
+  </ul>
+</nav>
+
+  <!-- ── MURAL BACKGROUND ── -->
+  <div aria-hidden="true" style="position:absolute;inset:0;overflow:hidden;z-index:0">
+    <!-- 7-image mosaic grid -->
+    <div style="display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:50% 50%;height:100%;width:100%">
+      <div style="grid-column:span 4;overflow:hidden"><img src="/bg-01.jpg" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;opacity:0.82"></div>
+      <div style="grid-column:span 4;overflow:hidden"><img src="/bg-02.jpg" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;opacity:0.82"></div>
+      <div style="grid-column:span 4;overflow:hidden"><img src="/bg-03.png" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;opacity:0.82"></div>
+      <div style="grid-column:span 3;overflow:hidden"><img src="/bg-04.jpg" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;opacity:0.82"></div>
+      <div style="grid-column:span 3;overflow:hidden"><img src="/bg-05.jpg" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;opacity:0.82"></div>
+      <div style="grid-column:span 3;overflow:hidden"><img src="/bg-06.png" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;opacity:0.82"></div>
+      <div style="grid-column:span 3;overflow:hidden"><img src="/bg-07.jpg" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;opacity:0.82"></div>
+    </div>
+    <!-- Dark overlay so content remains legible -->
+    <div style="position:absolute;inset:0;background:rgba(6,3,9,0.72)"></div>
+    <!-- Subtle gold vignette at edges -->
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,transparent 35%,rgba(4,2,8,0.55) 100%)"></div>
+  </div>
+  <!-- content -->
+  <div class="ab-content">
+    <div class="ph" style="background:rgba(5,8,20,0.45);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,175,55,0.25)"><div class="pe">If Only One</div><h1 class="pt">Our Team</h1><p class="ps">A team of believers compelled by one conviction: if only one soul comes to Christ, it is worth everything.</p></div>
+    <div style="padding:2.5rem 1.5rem 5rem">
+
+      <!-- ── TEAM ── -->
+      <div class="tm-grid">
+<div class="tm-card">
+  <div class="tm-face">
+    <div class="tm-img-wrap"><img src="/img-104.png" alt="Bradford Smith"></div>
+    <div class="tm-info">
+      <div class="tm-name">Bradford Smith</div>
+      <a class="tm-email" href="mailto:bradford@ifonly.one">bradford@ifonly.one</a>
+    </div>
+  </div>
+  <div class="tm-bio"><p>Bio coming soon — check back soon.</p></div>
+</div>
+<div class="tm-card">
+  <div class="tm-face">
+    <div class="tm-img-wrap"><img src="/summer-martin.jpg" alt="Summer Martin"></div>
+    <div class="tm-info">
+      <div class="tm-name">Summer Martin</div>
+      <a class="tm-email" href="mailto:summer@ifonly.one">summer@ifonly.one</a>
+    </div>
+  </div>
+  <div class="tm-bio"><p>Bio coming soon — check back soon.</p></div>
+</div>
+<div class="tm-card">
+  <div class="tm-face">
+    <div class="tm-img-wrap"><img src="/ami-smith.png" alt="Ami Smith"></div>
+    <div class="tm-info">
+      <div class="tm-name">Ami Smith</div>
+      <a class="tm-email" href="mailto:ami@ifonly.one">ami@ifonly.one</a>
+    </div>
+  </div>
+  <div class="tm-bio"><p>Bio coming soon — check back soon.</p></div>
+</div>
+<div class="tm-card">
+  <div class="tm-face">
+    <div class="tm-img-wrap"><img src="/katie-miller.png" alt="Katie Miller"></div>
+    <div class="tm-info">
+      <div class="tm-name">Katie Miller</div>
+      <a class="tm-email" href="mailto:katie@ifonly.one">katie@ifonly.one</a>
+    </div>
+  </div>
+  <div class="tm-bio"><p>Bio coming soon — check back soon.</p></div>
+</div>
+<div class="tm-card">
+  <div class="tm-face">
+    <div class="tm-img-wrap"><img src="/narayan-rabindranath.png" alt="Narayan Rabindranath"></div>
+    <div class="tm-info">
+      <div class="tm-name">Narayan Rabindranath</div>
+      <a class="tm-email" href="mailto:narayan@ifonly.one">narayan@ifonly.one</a>
+    </div>
+  </div>
+  <div class="tm-bio"><p>Bio coming soon — check back soon.</p></div>
+</div>
+<div class="tm-card">
+  <div class="tm-face">
+    <div class="tm-img-wrap"><img src="/img-105.jpg" alt="Dustin Chandler"></div>
+    <div class="tm-info">
+      <div class="tm-name">Dustin Chandler</div>
+      <a class="tm-email" href="mailto:dustin@ifonly.one">dustin@ifonly.one</a>
+    </div>
+  </div>
+  <div class="tm-bio"><p>Bio coming soon — check back soon.</p></div>
+</div>
+      </div>
+
+      <!-- ── MISSION SECTION ── -->
+      <div class="ab-mission">
+        <div class="ab-mission-inner">
+          <div class="ab-mission-rule"></div>
+          <h2 class="ab-mission-heading">Our Mission</h2>
+          <p class="ab-mission-body">The mission of If Only One is to platform Jesus Christ in any forum and to continually seek to expand the reach of these platforms. We proclaim the Gospel to the community through teaching and proclamation across a deliberately expanding portfolio of media access while providing opportunity for ministry members to participate in that proclamation.</p>
+          <div class="ab-mission-verses">
+            <blockquote class="ab-verse">
+              <p>"Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you."</p>
+              <cite>Matthew 28:19–20</cite>
+            </blockquote>
+            <blockquote class="ab-verse">
+              <p>"How then will they call on him in whom they have not believed? And how are they to believe in him of whom they have never heard? And how are they to hear without someone preaching?"</p>
+              <cite>Romans 10:14</cite>
+            </blockquote>
+          </div>
+          <div class="ab-mission-rule"></div>
+        </div>
+      </div>
+
+      <!-- ── BOARD ── -->
+      <div class="bd-section">
+        <div class="bd-divider">
+          <span class="bd-divider-icon">✦</span>
+          <h2 class="bd-heading">Faithful Servants &amp; Board Members</h2>
+          <p class="bd-sub">Those who give of their time, counsel, and care to steward this ministry.</p>
+        </div>
+        <div class="tm-grid tm-grid--center">
+<div class="tm-card">
+  <div class="tm-face">
+    <div class="tm-img-wrap"><img src="/josh-miller.png" alt="Josh Miller" style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block"></div>
+    <div class="tm-info">
+      <div class="tm-name">Josh Miller</div>
+      <a class="tm-email" href="mailto:josh@ifonly.one">josh@ifonly.one</a>
+      <span class="tm-role">President</span>
+    </div>
+  </div>
+      <div class="tm-bio"><p>Bio coming soon — check back soon.</p></div>
+</div>
+<div class="tm-card">
+  <div class="tm-face">
+    <div class="tm-img-wrap"><img src="/cindy-cleaver.png" alt="Cindy Cleaver" style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block"></div>
+    <div class="tm-info">
+      <div class="tm-name">Cindy Cleaver</div>
+      <a class="tm-email" href="mailto:cindy@ifonly.one">cindy@ifonly.one</a>
+      <span class="tm-role">Treasurer</span>
+    </div>
+  </div>
+      <div class="tm-bio"><p>Bio coming soon — check back soon.</p></div>
+</div>
+<div class="tm-card">
+  <div class="tm-face">
+    <div class="tm-img-wrap"><img src="/emily-thomas.png" alt="Emily Thomas"></div>
+    <div class="tm-info">
+      <div class="tm-name">Emily Thomas</div>
+      <span class="tm-role">Secretary</span>
+      <a class="tm-email" href="mailto:emily@ifonly.one">emily@ifonly.one</a>
+    </div>
+  </div>
+  <div class="tm-bio"><p>Bio coming soon — check back soon.</p></div>
+</div>
+        </div>
+      </div>
+
+      <!-- ── LEGAL NOTE ── -->
+      <div class="ab-legal">
+        <div class="ab-legal-inner">
+          <div class="ab-legal-rule"></div>
+          <p class="ab-legal-note">If Only One is a registered 501(c)(3) nonprofit organization. Contributions are tax-deductible to the extent permitted by law.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<script>
+function tdd(id){const el=document.getElementById(id);const was=el.classList.contains('open');document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));if(!was)el.classList.add('open');}
+document.addEventListener('click',e=>{if(!e.target.closest('.dw'))document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));});
+</script>
+</body>
+</html>

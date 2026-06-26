@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="/img-101.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <title>Books — If Only One</title>
+</head>
+<body>
+<nav id="sitenav">
+  <div class="brand" onclick="location.href='/'" >
+    <img src="/img-102.png" alt="If Only One">
+    <b>If Only One</b>
+  </div>
+  <ul class="nl">
+    <li><a class="nb" href="/">Home</a></li>
+    <li><a class="nb" href="/about/">About</a></li>
+    <li><a class="nb" href="/give/">Give</a></li>
+    <li><a class="nb" href="/books/">Books</a></li>
+    <li class="dw">
+      <button class="nb" onclick="location.href='/articles/'" style="padding-right:.3rem">Articles</button><button class="nb" onclick="tdd('ddar')" style="padding:.38rem .3rem;font-size:.7rem">▾</button>
+      <div class="dm wide" id="ddar">
+        <div class="dl">✦ New</div>
+        <div class="di hl" onclick="go('art-nf')" style="display:flex;align-items:center"><img src="/nf-img-1.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Not Forgotten. Not Overlooked. <span class="da">— Summer Martin</span></div>
+        <div class="dl">Recent</div>
+        <div class="di" onclick="go('the-navigators-and-other-things-that-are')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1771865923719-EDJJ8KWNUNAS3SFLBENH/cover.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">The Navigators and Other Things That Are Not … <span class="da">— Bradford Smith</span></div><div class="di" onclick="go('what-makes-waiting-so-hard--me')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1769794341346-A73V5LY93JNI9NET0QFZ/Picture1.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">What makes waiting so hard? Me. <span class="da">— Summer Martin</span></div><div class="di" onclick="go('vacuuming-the-red-carpet---a-paen-for-th')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1768582418611-WP58PNT0THQBUGPA1D5M/db7bf9b8-2975-4347-917a-102f19f042a0.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Vacuuming the Red Carpet - a Paen for the Sma… <span class="da">— Bradford Smith</span></div><div class="di" onclick="go('grace-for-the-mind--the-christian-and-me')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1767125279251-IC2UYQCG9YRSXCLQ2T55/How-Substance-Abuse-Affects-Mental-Health-1536x1229.webp" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Grace for the Mind: The Christian and Mental … <span class="da">— Summer Martin</span></div><div class="di" onclick="go('what-does-it-mean-to--sin-willfully----h')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1767127146640-PMTSZXV5UEXGAZ7TDA60/Soldier+Kneeling.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">What does it mean to “sin willfully”? (Hebrew… <span class="da">— Bradford Smith</span></div><div class="di" onclick="go('the-church--more-than-a-building')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1761319582550-3A6WJ0WCUXCYEGFBI9FM/Picture1.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">The Church: More Than a Building <span class="da">— Jessie Dukes</span></div><div class="di" onclick="go('the-burden-of-bible-reading')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1736978611151-9R03WNDSKTTZ2TE1DHIF/Embarkation_of_the_Pilgrims.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">The Burden of Bible Reading <span class="da">— Bradford Smith</span></div>
+        <div style="padding:.5rem 1rem;border-top:1px solid rgba(212,175,55,0.15);margin-top:.3rem">
+          <a class="di" href="/articles/" style="color:var(--gold);font-size:.72rem;letter-spacing:.08em">View all articles →</a>
+        </div>
+      </div>
+    </li>
+    <li><a class="nb" href="/contact/">Contact</a></li>
+  </ul>
+</nav>
+
+  <div class="mural-page" style="position:relative;">
+    <div id="books-bg-slider">
+      <div class="bslide active"></div>
+      <div class="bslide"></div>
+      <div class="bslide"></div>
+      <div class="bslide"></div>
+      <div class="bslide"></div>
+    </div>
+    <div class="mural-overlay"></div>
+    <div class="mural-content">
+      <div class="ph" style="background:rgba(20,8,0,0.55);backdrop-filter:blur(8px);border-bottom:1px solid rgba(212,175,55,0.2)"><div class="pe">If Only One</div><h1 class="pt">Books</h1><p class="ps">Writings rooted in Scripture — for the believer who wants to go deeper.</p></div>
+      <div class="bg">
+        <div class="bk" style="background:rgba(10,5,3,0.84);backdrop-filter:blur(10px)"><div class="bth" style="padding:0;overflow:hidden;background:#000"><img src="/img-106.jpg" alt="book cover" style="width:100%;height:100%;object-fit:contain;object-position:center center;display:block;background:#0a0603"></div><div class="bb"><div class="btt">Wounded by Sheep</div><div class="bau">Derek Levendusky</div><div class="bde">Church hurt cuts deep — precisely because we expected better. This unflinching, grace-filled account charts a path toward healing rooted entirely in the Gospel.</div><a class="bbt" href="https://www.amazon.com/dp/194542379X" target="_blank">📖 Buy on Amazon</a></div></div>
+        <div class="bk" style="background:rgba(10,5,3,0.84);backdrop-filter:blur(10px)"><div class="bth" style="padding:0;overflow:hidden;background:#000"><img src="/img-107.webp" alt="book cover" style="width:100%;height:100%;object-fit:contain;object-position:center center;display:block;background:#0a0603"></div><div class="bb"><div class="btt">Am I Saved? A Study through 1 John</div><div class="bau">Bradford Smith</div><div class="bde">Move from assumption to assurance. A verse-by-verse walk through 1 John — confronting the question every believer must wrestle with and delivering the biblical answer with clarity.</div><a class="bbt" href="https://www.amazon.com/dp/1681902214" target="_blank">📖 Buy on Amazon</a></div></div>
+        <div class="bk" style="background:rgba(10,5,3,0.84);backdrop-filter:blur(10px)"><div class="bth" style="padding:0;overflow:hidden;background:#000"><img src="/img-108.webp" alt="book cover" style="width:100%;height:100%;object-fit:contain;object-position:center center;display:block;background:#0a0603"></div><div class="bb"><div class="btt">Brave Rifles Theology</div><div class="bau">Bradford Smith</div><div class="bde">A battlefield-tested theology for the warrior. Smith takes the doctrines of grace into the foxhole — where faith is forged under fire and the sovereignty of God becomes a lifeline.</div><a class="bbt" href="https://www.amazon.com/dp/B077XH9ZSX" target="_blank">📖 Buy on Amazon</a></div></div>
+        <div class="bk" style="background:rgba(10,5,3,0.84);backdrop-filter:blur(10px)"><div class="bth" style="padding:0;overflow:hidden;background:#000"><img src="/img-109.webp" alt="book cover" style="width:100%;height:100%;object-fit:contain;object-position:center center;display:block;background:#0a0603"></div><div class="bb"><div class="btt">No Higher Call</div><div class="bau">Bradford Smith</div><div class="bde">A biblical treatise on the sacred calling of military service — arguing that service to country, rightly understood, is love of neighbor made concrete and obedience to God made visible.</div><a class="bbt" href="https://www.amazon.com/dp/B00X1OVDYY" target="_blank">📖 Buy on Amazon</a></div></div>
+        <div class="bk" style="background:rgba(10,5,3,0.84);backdrop-filter:blur(10px)"><div class="bth" style="padding:0;overflow:hidden;background:#000"><img src="/img-106.jpg" alt="book cover" style="width:100%;height:100%;object-fit:contain;object-position:center center;display:block;background:#0a0603"></div><div class="bb"><div class="btt">The Scourge</div><div class="bau">Bradford Smith</div><div class="bde">Addiction is not merely social — it is spiritual. Smith confronts one of the most devastating global crises with the only cure powerful enough: the grace and redemption of Jesus Christ.</div><a class="bbt" href="https://www.amazon.com/dp/B00NPK2V5Y" target="_blank">📖 Buy on Amazon</a></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ARTICLES -->
+<script>
+(function(){
+  var slides=document.querySelectorAll('#books-bg-slider .bslide');
+  var current=0;
+  function nextSlide(){slides[current].classList.remove('active');current=(current+1)%slides.length;slides[current].classList.add('active');}
+  if(slides.length)setInterval(nextSlide,4000);
+})();
+function tdd(id){const el=document.getElementById(id);const was=el.classList.contains('open');document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));if(!was)el.classList.add('open');}
+document.addEventListener('click',e=>{if(!e.target.closest('.dw'))document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));});
+</script>
+</body>
+</html>

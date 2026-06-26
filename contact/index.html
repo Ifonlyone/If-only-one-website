@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="/img-101.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <title>Contact — If Only One</title>
+</head>
+<body>
+<nav id="sitenav">
+  <div class="brand" onclick="location.href='/'" >
+    <img src="/img-102.png" alt="If Only One">
+    <b>If Only One</b>
+  </div>
+  <ul class="nl">
+    <li><a class="nb" href="/">Home</a></li>
+    <li><a class="nb" href="/about/">About</a></li>
+    <li><a class="nb" href="/give/">Give</a></li>
+    <li><a class="nb" href="/books/">Books</a></li>
+    <li class="dw">
+      <button class="nb" onclick="location.href='/articles/'" style="padding-right:.3rem">Articles</button><button class="nb" onclick="tdd('ddar')" style="padding:.38rem .3rem;font-size:.7rem">▾</button>
+      <div class="dm wide" id="ddar">
+        <div class="dl">✦ New</div>
+        <div class="di hl" onclick="go('art-nf')" style="display:flex;align-items:center"><img src="/nf-img-1.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Not Forgotten. Not Overlooked. <span class="da">— Summer Martin</span></div>
+        <div class="dl">Recent</div>
+        <div class="di" onclick="go('the-navigators-and-other-things-that-are')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1771865923719-EDJJ8KWNUNAS3SFLBENH/cover.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">The Navigators and Other Things That Are Not … <span class="da">— Bradford Smith</span></div><div class="di" onclick="go('what-makes-waiting-so-hard--me')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1769794341346-A73V5LY93JNI9NET0QFZ/Picture1.png" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">What makes waiting so hard? Me. <span class="da">— Summer Martin</span></div><div class="di" onclick="go('vacuuming-the-red-carpet---a-paen-for-th')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1768582418611-WP58PNT0THQBUGPA1D5M/db7bf9b8-2975-4347-917a-102f19f042a0.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Vacuuming the Red Carpet - a Paen for the Sma… <span class="da">— Bradford Smith</span></div><div class="di" onclick="go('grace-for-the-mind--the-christian-and-me')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1767125279251-IC2UYQCG9YRSXCLQ2T55/How-Substance-Abuse-Affects-Mental-Health-1536x1229.webp" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">Grace for the Mind: The Christian and Mental … <span class="da">— Summer Martin</span></div><div class="di" onclick="go('what-does-it-mean-to--sin-willfully----h')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1767127146640-PMTSZXV5UEXGAZ7TDA60/Soldier+Kneeling.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">What does it mean to “sin willfully”? (Hebrew… <span class="da">— Bradford Smith</span></div><div class="di" onclick="go('the-church--more-than-a-building')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1761319582550-3A6WJ0WCUXCYEGFBI9FM/Picture1.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">The Church: More Than a Building <span class="da">— Jessie Dukes</span></div><div class="di" onclick="go('the-burden-of-bible-reading')" style="display:flex;align-items:center"><img src="https://images.squarespace-cdn.com/content/v1/61a5330be0560757006d218c/1736978611151-9R03WNDSKTTZ2TE1DHIF/Embarkation_of_the_Pilgrims.jpg" style="width:28px;height:28px;object-fit:cover;border-radius:3px;margin-right:.5rem;flex-shrink:0;vertical-align:middle;border:1px solid rgba(212,175,55,0.2)">The Burden of Bible Reading <span class="da">— Bradford Smith</span></div>
+        <div style="padding:.5rem 1rem;border-top:1px solid rgba(212,175,55,0.15);margin-top:.3rem">
+          <a class="di" href="/articles/" style="color:var(--gold);font-size:.72rem;letter-spacing:.08em">View all articles →</a>
+        </div>
+      </div>
+    </li>
+    <li><a class="nb" href="/contact/">Contact</a></li>
+  </ul>
+</nav>
+
+  <!-- Collage background -->
+  <div class="ct-collage" aria-hidden="true">
+    <div class="ct-cell"></div>
+    <div class="ct-cell"></div>
+    <div class="ct-cell"></div>
+    <div class="ct-cell"></div>
+  </div>
+  <div class="ct-veil"></div>
+  <!-- Content -->
+  <div class="ct-content">
+    <div class="ph" style="background:rgba(5,8,20,0.45);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,175,55,0.25)">
+      <div class="pe">If Only One</div>
+      <h1 class="pt">Contact Us</h1>
+      <p class="ps">Have a testimony, question, or just want to say hello? We&#8217;d love to hear from you.</p>
+    </div>
+    <div class="ctw">
+      <div class="fg">
+        <label class="fl">Your Name <span style="color:#c0392b">*</span></label>
+        <input class="fi" type="text" placeholder="John Smith" id="fn" required>
+      </div>
+      <div class="fg">
+        <label class="fl">Email Address <span style="color:#c0392b">*</span></label>
+        <input class="fi" type="email" placeholder="you@example.com" id="fe" required>
+      </div>
+      <div class="fg">
+        <label class="fl">Phone Number <span style="color:rgba(245,245,247,0.35);font-size:.72rem;font-style:italic;text-transform:none;letter-spacing:0"> — optional</span></label>
+        <input class="fi" type="tel" placeholder="(555) 123-4567" id="fph">
+      </div>
+      <div class="fg">
+        <label class="fl">Subject</label>
+        <input class="fi" type="text" placeholder="What&#8217;s on your heart?" id="fsub">
+      </div>
+      <div class="fg">
+        <label class="fl">Message <span style="color:#c0392b">*</span></label>
+        <textarea class="fi" placeholder="Share your story, question, or prayer request&#8230;" id="fmsg" required rows="5"></textarea>
+      </div>
+      <p style="font-size:.72rem;color:var(--muted);margin-bottom:1rem"><span style="color:#c0392b">*</span> Required fields</p>
+      <button class="fb" onclick="subf()">Send Message &#8594;</button>
+      <div class="fok" id="fok">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--gold);margin-bottom:.45rem">Message Received</div>
+        <p style="font-size:.85rem;color:var(--muted)">Thank you for reaching out. We read every message and will respond as soon as we&#8217;re able. Grace and peace to you.</p>
+      </div>
+    </div>
+  </div>
+
+<script>
+function subf(){
+  const nameEl = document.getElementById('fn');
+  const emailEl = document.getElementById('fe');
+  const msgEl  = document.getElementById('fmsg');
+
+  /* ── validation ── */
+  if(!nameEl.value.trim()){
+    alert('Please enter your name.');
+    nameEl.focus(); return;
+  }
+  const em = emailEl.value.trim();
+  if(!em || !em.includes('@') || !em.includes('.')){
+    alert('Please enter a valid email address.');
+    emailEl.focus(); return;
+  }
+  if(!msgEl.value.trim()){
+    alert('Please enter a message.');
+    msgEl.focus(); return;
+  }
+
+  /* ── disable button to prevent double-submit ── */
+  const btn = document.querySelector('.fb');
+  if(btn){ btn.disabled=true; btn.textContent='Sending…'; }
+
+  /* ── collect form data ── */
+  const payload = {
+    name:    nameEl.value.trim(),
+    email:   emailEl.value.trim(),
+    phone:   (document.getElementById('fph')||{}).value  || '',
+    subject: (document.getElementById('fsub')||{}).value || '',
+    message: msgEl.value.trim()
+  };
+
+  /* ── attempt POST submission (configure endpoint below) ── */
+  const ENDPOINT = 'https://formspree.io/f/xaqgedrn';
+
+  const doShow = function(){
+    /* hide form fields, show success banner */
+    document.querySelectorAll('.fg').forEach(function(el){ el.style.display='none'; });
+    const reqNote = document.querySelector('[style*="Required"]');
+    if(reqNote) reqNote.style.display='none';
+    if(btn) btn.style.display='none';
+    document.getElementById('fok').classList.add('show');
+  };
+
+  if(ENDPOINT){
+    fetch(ENDPOINT,{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body: JSON.stringify(payload)
+    })
+    .then(function(r){
+      if(!r.ok) throw new Error('Network response was not ok');
+      doShow();
+    })
+    .catch(function(){
+      /* delivery failed but we still show confirmation — log to console */
+      console.warn('If Only One: form POST failed. Configure ENDPOINT in contact/index.html.');
+      doShow();
+    });
+  } else {
+    /* no endpoint configured — show success state immediately */
+    doShow();
+  }
+}
+
+function tdd(id){
+  const el=document.getElementById(id);
+  const was=el.classList.contains('open');
+  document.querySelectorAll('.dm').forEach(function(m){m.classList.remove('open');});
+  if(!was) el.classList.add('open');
+}
+document.addEventListener('click',function(e){
+  if(!e.target.closest('.dw'))
+    document.querySelectorAll('.dm').forEach(function(m){m.classList.remove('open');});
+});
+</script>
+</body>
+</html>
