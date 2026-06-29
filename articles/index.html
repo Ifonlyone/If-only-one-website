@@ -1823,7 +1823,13 @@ function go(pg){
 }
 function tdd(id){const el=document.getElementById(id);const was=el.classList.contains('open');document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));if(!was)el.classList.add('open');}
 document.addEventListener('click',e=>{if(!e.target.closest('.dw'))document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));});
-document.addEventListener('DOMContentLoaded',function(){if(location.pathname.indexOf('notforgotten')!==-1){go('art-nf');}});
+document.addEventListener('DOMContentLoaded', function() {
+  if (location.hash) {
+    go(location.hash.replace('#', ''));
+  } else if (location.pathname.indexOf('notforgotten') !== -1) {
+    go('art-nf');
+  }
+});
 </script>
 </body>
 </html>
