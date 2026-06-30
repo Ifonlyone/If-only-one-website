@@ -427,6 +427,29 @@ textarea.fi{height:130px;resize:vertical}
     white-space: nowrap !important; /* Keeps the individual button text on one line */
   }
   .page {
-    padding-top: 130px !important; /* Pushes home content down so it doesn't hide under the stacked header */
+padding-top: 130px !important; /* Pushes home content down so it doesn't hide under stacked header */
+}
+
+/* 🛑 OVERFLOW FIX FOR THE ARTICLES DROPDOWN MENU */
+
+    /* 🛑 OVERFLOW FIX FOR THE ARTICLES DROPDOWN MENU */
+    .dm {
+      position: absolute !important;
+      left: 50% !important;
+      right: auto !important;
+      transform: translateX(-50%) translateY(6px) !important;
+      width: 90vw !important;
+      max-width: 340px !important;
+      box-sizing: border-box !important;
+    }
+
+    .dm.open {
+      transform: translateX(-50%) translateY(0) !important;
+    }
+
+    .di {
+      white-space: normal !important;
+      padding: 0.6rem 1rem !important;
+    }
   }
 }
