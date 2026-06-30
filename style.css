@@ -391,3 +391,74 @@ textarea.fi{height:130px;resize:vertical}
 /* Board role label */
 .tm-role{font-size:.72rem;color:var(--gold);font-family:'Inter',sans-serif;letter-spacing:.06em;text-transform:uppercase;display:block;margin-top:.18rem}
 @media(max-width:600px){.ab-mission-verses{flex-direction:column;align-items:center}.ab-verse{max-width:100%}}
+
+/* 📱 ULTIMATE MOBILE DISPLAYS OVERRIDES (BASE OF FILE) */
+@media (max-width: 768px) {
+  /* 1. Dynamic Header Navigation Scaling */
+  nav {
+    height: auto !important;
+    flex-direction: column !important;
+    padding: 0.8rem 1rem !important;
+    gap: 0.6rem !important;
+  }
+  .brand {
+    margin-right: 0 !important;
+  }
+  .brand img {
+    width: 44px !important;
+    height: 44px !important;
+  }
+  .brand b {
+    font-size: 1.4rem !important;
+  }
+  .nl {
+    gap: 0.2rem !important;
+    padding-left: 0 !important;
+  }
+  .nb {
+    font-size: 0.8rem !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+  .page {
+    padding-top: 120px !important; /* Prevents hero content from slipping under taller mobile header */
+  }
+
+  /* 2. Central Cross Dashboard Aspect-Ratio Downscaling */
+  .cg {
+    transform: scale(0.78) !important; /* Symmetrically shrinks the cross to sit inside phone margins */
+    transform-origin: center center !important;
+    margin-top: -1.5rem !important;
+    margin-bottom: -1.5rem !important;
+  }
+
+  /* 3. Team Profiles & Layout Grids Adjustment */
+  .tm-grid {
+    gap: 1.2rem !important;
+    padding: 0 1rem !important;
+  }
+  .tm-card {
+    width: 100% !important; /* Lets profile cards adapt fluidly if screens get ultra tight */
+    max-width: 280px !important;
+  }
+
+  /* 4. Contact Form Input Constraints Optimization */
+  .ctw {
+    max-width: 100% !important;
+    padding: 0 1.25rem !important;
+    margin: 1.5rem auto 3rem !important;
+  }
+  .fi {
+    font-size: 0.95rem !important; /* Keeps form fields from triggering auto-zoom loops on iOS devices */
+    padding: 0.7rem 0.9rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  /* High-density layout scaling for ultra-compact devices (e.g., iPhone SE) */
+  .cg {
+    transform: scale(0.66) !important;
+  }
+  .brand b {
+    font-size: 1.25rem !important;
+  }
+}
