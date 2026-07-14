@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Affiliate Disclosure — If Only One</title>
+<link rel="icon" type="image/png" href="/img-101.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<nav id="sitenav">
+  <a class="brand" href="/">If Only One</a>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nl" id="nav-menu">
+    <li><a class="nb" href="/">Home</a></li>
+    <li><a class="nb" href="/about/">About</a></li>
+    <li><a class="nb" href="/give/">Give</a></li>
+    <li><a class="nb" href="/books/">Books</a></li>
+    <li class="dw">
+      <a class="nb" href="/articles/" style="padding-right:.3rem">Articles</a><button class="nb dw-toggle" onclick="tdd('ddar')" aria-label="Articles submenu" style="padding:.38rem .3rem;font-size:.7rem">▾</button>
+      <div class="dm wide" id="ddar">
+        <div class="dl">✦ New</div>
+        <a class="di hl" href="/articles/notforgotten.notoverlooked">Not Forgotten. Not Overlooked. — Summer Martin</a>
+        <div class="dl">Recent</div>
+        <a class="di" href="/articles/">The Navigators and Other Things That Are Not the Church</a>
+        <a class="di" href="/articles/">What makes waiting so hard? Me.</a>
+        <div style="padding:.5rem 1rem;border-top:1px solid rgba(212,175,55,0.15);margin-top:.3rem">
+          <a class="di" href="/articles/" style="color:var(--gold);font-size:.72rem;letter-spacing:.08em">View all articles →</a>
+        </div>
+      </div>
+    </li>
+    <li><a class="nb" href="/contact/">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="pe">Legal</div>
+    <h1 class="page-hero-title">Affiliate Disclosure</h1>
+    <p class="page-hero-sub">Last updated: July 2026</p>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="legal-wrap">
+
+    <div class="legal-intro">
+      <p>If Only One believes in complete transparency with our readers. This page explains our relationship with Amazon and any other third-party platforms we link to, in compliance with the Federal Trade Commission (FTC) guidelines on endorsements and testimonials.</p>
+    </div>
+
+    <div class="legal-block">
+      <h2>Amazon Associates Program</h2>
+      <p>If Only One is a participant in the <strong>Amazon Services LLC Associates Program</strong>, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</p>
+      <p>This means that when you click a "View on Amazon" link on our <a class="inline-link" href="/books/">Books page</a> or elsewhere on this Site and make a purchase, we may earn a small commission — at no additional cost to you. The price you pay is exactly the same whether or not you use our link.</p>
+    </div>
+
+    <div class="legal-block">
+      <h2>Our Commitment to You</h2>
+      <p>We only link to books written or co-authored by If Only One contributors — books we stand behind completely. We do not recommend products we haven't personally written or vetted, and affiliate income does not influence what we publish or recommend.</p>
+      <p>Any commission earned goes directly toward supporting the ongoing work of this ministry: producing Gospel content, maintaining the website, and reaching people with the message of Jesus Christ.</p>
+    </div>
+
+    <div class="legal-block">
+      <h2>Other Third-Party Links</h2>
+      <p>From time to time, we may link to other resources, ministries, or tools that we find genuinely helpful. Unless specifically stated, these are not affiliate links and we receive no compensation for them. They are shared purely because we believe they may benefit our readers.</p>
+    </div>
+
+    <div class="legal-block">
+      <h2>FTC Compliance</h2>
+      <p>In accordance with the FTC's guidelines (16 CFR Part 255), we disclose any material connection between this Site and third-party products or services we mention. This Affiliate Disclosure page, along with any inline disclosures on relevant pages, fulfills that requirement.</p>
+      <p>If you have questions about whether a specific link on this Site is an affiliate link, please <a class="inline-link" href="/contact/">contact us</a> and we will clarify.</p>
+    </div>
+
+    <div class="legal-block">
+      <h2>No Inflated Endorsements</h2>
+      <p>We do not inflate our descriptions of books or resources in order to earn commissions. Our descriptions of books are honest and written to help you decide whether a title is right for you — not to pressure a sale. The Gospel is free, and we intend to keep this ministry as straightforward and trustworthy as that.</p>
+    </div>
+
+    <div class="legal-block">
+      <h2>Questions</h2>
+      <p>For questions about this Affiliate Disclosure, reach us through our <a class="inline-link" href="/contact/">Contact page</a>.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/articles/">Articles</a>
+    <a href="/books/">Books</a>
+    <a href="/give/">Give</a>
+    <a href="/contact/">Contact</a>
+  </div>
+  <div class="footer-legal-links">
+    <a href="/privacy/">Privacy Policy</a>
+    <a href="/terms/">Terms of Use</a>
+    <a href="/disclaimer/">Disclaimer</a>
+    <a href="/affiliate/">Affiliate Disclosure</a>
+  </div>
+  <p>&copy; 2026 If Only One &middot; All rights reserved</p>
+</footer>
+
+<script>
+(function(){
+  const toggle=document.getElementById('nav-toggle'),menu=document.getElementById('nav-menu');
+  toggle.addEventListener('click',function(){const open=menu.classList.toggle('open');toggle.classList.toggle('open',open);toggle.setAttribute('aria-expanded',open);});
+  menu.querySelectorAll('a.nb').forEach(function(l){l.addEventListener('click',function(){menu.classList.remove('open');toggle.classList.remove('open');toggle.setAttribute('aria-expanded','false');});});
+})();
+function tdd(id){const el=document.getElementById(id),was=el.classList.contains('open');document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));if(!was)el.classList.add('open');}
+document.addEventListener('click',e=>{if(!e.target.closest('.dw'))document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));});
+</script>
+</body>
+</html>

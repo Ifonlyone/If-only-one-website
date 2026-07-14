@@ -457,3 +457,69 @@ padding-top: 130px !important; /* Pushes home content down so it doesn't hide un
 .di, .di *, .di a {
   text-decoration: none !important;
 }
+
+/* ── LEGAL PAGES — additional variables ── */
+:root{--nav-h:66px;--text:#F5F5F7}
+
+/* ── SITENAV (multi-page static pages) ── */
+#sitenav{position:fixed;top:0;left:0;right:0;z-index:200;height:var(--nav-h);display:flex;align-items:center;padding:0 1.4rem;background:rgba(9,6,6,0.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(212,175,55,0.22);gap:1.4rem}
+#sitenav .brand{font-family:'Cormorant Garamond',serif;font-size:1.18rem;font-weight:700;color:var(--gold);letter-spacing:.04em;white-space:nowrap;flex-shrink:0;display:inline-flex;align-items:center;margin-right:auto;cursor:pointer}
+#sitenav .nl{margin-left:0}
+
+/* ── HAMBURGER TOGGLE ── */
+.nav-toggle{display:none;flex-direction:column;justify-content:center;gap:5px;width:36px;height:36px;padding:6px;margin-left:auto;background:none;border:none;cursor:pointer;flex-shrink:0}
+.nav-toggle span{display:block;width:100%;height:2px;background:var(--gold);border-radius:2px;transition:transform .25s,opacity .2s;transform-origin:center}
+.nav-toggle.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-toggle.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.nav-toggle.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* ── MOBILE NAV (static pages) ── */
+@media(max-width:740px){
+  #sitenav .nav-toggle{display:flex}
+  #sitenav .nl{position:fixed;top:var(--nav-h);left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:rgba(8,2,18,0.97);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid rgba(212,175,55,0.14);padding:.6rem 0 1rem;max-height:0;overflow:hidden;transition:max-height .32s cubic-bezier(.4,0,.2,1);margin-left:0}
+  #sitenav .nl.open{max-height:520px}
+  #sitenav .nl li{width:100%}
+  #sitenav .nb{width:100%;justify-content:flex-start;padding:.8rem 1.4rem;font-size:.85rem;border-radius:0;border-bottom:1px solid rgba(212,175,55,0.06)}
+  #sitenav .dw{position:static}
+  #sitenav .dm{position:static;display:none;width:100%;border-radius:0;border:none;border-top:1px solid rgba(212,175,55,0.1);box-shadow:none;background:rgba(212,175,55,0.04);padding:.3rem 0;opacity:1;transform:none;pointer-events:auto}
+  #sitenav .dm.open{display:block}
+  #sitenav .di{padding:.55rem 2rem;font-size:.8rem}
+  #sitenav .dl{padding:.5rem 2rem .2rem}
+  #sitenav .dw>.nb:first-child{flex:1}
+  #sitenav .dw-toggle{margin-left:auto;padding:.8rem 1.4rem !important}
+}
+
+/* ── PAGE HERO (inner / legal pages) ── */
+.page-hero{padding-top:calc(var(--nav-h) + 3.5rem);padding-bottom:3.5rem;padding-left:1.5rem;padding-right:1.5rem;background:linear-gradient(to bottom,#0d0008 0%,#06000f 100%);border-bottom:1px solid rgba(212,175,55,0.12);text-align:center}
+.page-hero-inner{max-width:680px;margin:0 auto}
+.page-hero-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,5vw,3.2rem);font-weight:700;color:#fff;line-height:1.15;margin:.5rem 0 1rem}
+.page-hero-sub{font-size:clamp(.88rem,1.8vw,1.05rem);color:var(--muted);line-height:1.65;max-width:560px;margin:0 auto}
+
+/* ── PAGE SECTION ── */
+.page-section{padding:4rem 1.5rem 5rem}
+
+/* ── LEGAL CONTENT ── */
+.legal-wrap{max-width:740px;margin:0 auto;display:flex;flex-direction:column;gap:2.8rem}
+.legal-intro{border-left:3px solid var(--gold);padding:1rem 0 1rem 1.4rem;background:rgba(212,175,55,0.04);border-radius:0 4px 4px 0}
+.legal-intro p{font-size:.95rem;color:rgba(240,236,228,0.85);line-height:1.7;margin:0}
+.legal-block h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.15rem,2.4vw,1.45rem);font-weight:700;color:var(--gold);margin-bottom:.7rem;padding-bottom:.4rem;border-bottom:1px solid rgba(212,175,55,0.15)}
+.legal-block h3{font-size:.82rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cream);margin:1.1rem 0 .45rem}
+.legal-block p{font-size:.9rem;color:var(--muted);line-height:1.78;margin-bottom:.9rem}
+.legal-block p:last-child{margin-bottom:0}
+.legal-block ul{margin:.5rem 0 .9rem 1.2rem;display:flex;flex-direction:column;gap:.4rem}
+.legal-block ul li{font-size:.9rem;color:var(--muted);line-height:1.65}
+.legal-block ul li strong{color:var(--cream);font-weight:600}
+
+/* ── INLINE LINK ── */
+.inline-link{color:var(--gold);border-bottom:1px solid rgba(212,175,55,0.35);transition:border-color .18s}
+.inline-link:hover{border-color:var(--gold)}
+
+/* ── FOOTER (legal pages) ── */
+footer{padding:2.8rem 1.5rem 2rem;border-top:1px solid rgba(212,175,55,0.1);text-align:center;background:#06000f}
+.footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:.2rem 1.1rem;margin-bottom:1.1rem}
+.footer-links a{font-size:.72rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:rgba(240,236,228,0.45);transition:color .18s}
+.footer-links a:hover{color:var(--gold)}
+footer p{font-size:.72rem;color:rgba(240,236,228,0.28);letter-spacing:.06em}
+.footer-legal-links{display:flex;flex-wrap:wrap;justify-content:center;gap:.2rem .9rem;margin-bottom:.6rem}
+.footer-legal-links a{font-size:.65rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;color:rgba(240,236,228,0.3);transition:color .18s}
+.footer-legal-links a:hover{color:var(--gold)}
