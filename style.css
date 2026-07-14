@@ -523,3 +523,6 @@ footer p{font-size:.72rem;color:rgba(240,236,228,0.28);letter-spacing:.06em}
 .footer-legal-links{display:flex;flex-wrap:wrap;justify-content:center;gap:.2rem .9rem;margin-bottom:.6rem}
 .footer-legal-links a{font-size:.65rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;color:rgba(240,236,228,0.3);transition:color .18s}
 .footer-legal-links a:hover{color:var(--gold)}
+
+/* ── Fix: page hero (.ph) top padding must clear the fixed navbar ── */
+.ph{padding-top:calc(var(--nav-h) + 2.5rem)}
