@@ -177,25 +177,9 @@ nav{background:#090606;height:66px;display:flex;align-items:center;padding:0 1.4
 .fqa.open{display:block}
 
 /* ── TEAM CARDS ── */
-.tm-grid{display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;max-width:980px;margin:0 auto}
-.tm-card{width:220px;background:rgba(14,11,11,0.72);border:1.5px solid rgba(212,175,55,0.4);border-radius:4px;overflow:hidden;cursor:default;transition:transform .35s cubic-bezier(.22,.68,0,1.2),box-shadow .35s,border-color .35s;flex-shrink:0}
-.tm-card:hover{transform:translateY(-10px) scale(1.03);border-color:var(--gold);box-shadow:0 18px 48px rgba(0,0,0,0.55)}
-.tm-face{display:flex;flex-direction:column;align-items:center;padding:1.5rem 1rem 1.2rem}
-.tm-img-wrap{width:120px;height:120px;border-radius:50%;overflow:hidden;border:2.5px solid rgba(212,175,55,0.5);margin-bottom:1rem;flex-shrink:0;background:#1a1018}
-.tm-img-wrap img{width:100%;height:100%;object-fit:cover;object-position:center top}
-.tm-initials{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--gold);font-weight:700}
-.tm-info{text-align:center}
-.tm-name{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:700;color:var(--cream);letter-spacing:.04em}
-.tm-role{font-size:.85rem;color:rgba(212,175,55,0.8);text-transform:uppercase;letter-spacing:.12em;margin:.3rem 0 .5rem}
-.tm-email{font-size:.82rem;color:rgba(245,245,247,0.55);text-decoration:none;transition:color .2s}
-.tm-email:hover{color:var(--gold)}
-.tm-bio{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.22,.68,0,1.2),padding .35s;border-top:0px solid rgba(212,175,55,0.25)}
-.tm-card:hover .tm-bio{max-height:220px;padding:1rem 1.2rem 1.2rem;border-top-width:1px}
-.tm-bio p{font-size:.94rem;color:rgba(245,245,247,0.7);line-height:1.6;margin:0}
-
 /* ── TEAM CARDS ── */
 .tm-grid{display:flex;flex-wrap:wrap;gap:1.8rem;justify-content:center;max-width:1020px;margin:0 auto}
-.tm-card{width:220px;background:rgba(14,11,11,0.78);border:1.5px solid rgba(212,175,55,0.38);border-radius:6px;overflow:hidden;cursor:default;transition:transform .38s cubic-bezier(.22,.68,0,1.2),box-shadow .38s,border-color .35s;flex-shrink:0}
+.tm-card{width:220px;background:rgba(14,11,11,0.78);border:1.5px solid rgba(212,175,55,0.38);border-radius:6px;overflow:hidden;cursor:pointer;transition:transform .38s cubic-bezier(.22,.68,0,1.2),box-shadow .38s,border-color .35s;flex-shrink:0}
 .tm-card:hover{transform:translateY(-12px) scale(1.04);border-color:var(--gold);box-shadow:0 22px 55px rgba(0,0,0,0.65)}
 .tm-face{display:flex;flex-direction:column;align-items:center;padding:1.6rem 1rem 1.2rem}
 .tm-img-wrap{width:124px;height:124px;border-radius:50%;overflow:hidden;border:2.5px solid rgba(212,175,55,0.5);margin-bottom:1rem;flex-shrink:0;background:#1a1018}
@@ -205,9 +189,26 @@ nav{background:#090606;height:66px;display:flex;align-items:center;padding:0 1.4
 .tm-role{font-size:.83rem;color:rgba(212,175,55,0.85);text-transform:uppercase;letter-spacing:.13em;margin:.3rem 0 .5rem}
 .tm-email{font-size:.8rem;color:rgba(245,245,247,0.48);text-decoration:none;transition:color .2s;word-break:break-all}
 .tm-email:hover{color:var(--gold)}
-.tm-bio{max-height:0;overflow:hidden;transition:max-height .48s cubic-bezier(.22,.68,0,1.2),padding .38s;border-top:0px solid rgba(212,175,55,0.22)}
-.tm-card:hover .tm-bio{max-height:240px;padding:.9rem 1.2rem 1.2rem;border-top-width:1px}
-.tm-bio p{font-size:.94rem;color:rgba(245,245,247,0.68);line-height:1.65;margin:0;font-style:italic}
+.tm-bio{display:none}
+
+/* ── BIO MODAL ── */
+.bio-overlay{position:fixed;inset:0;background:rgba(4,2,8,0.82);backdrop-filter:blur(6px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:1.5rem;opacity:0;pointer-events:none;transition:opacity .3s ease}
+.bio-overlay.open{opacity:1;pointer-events:all}
+.bio-panel{position:relative;background:linear-gradient(160deg,rgba(18,12,8,0.97) 0%,rgba(10,8,16,0.97) 100%);border:1.5px solid rgba(212,175,55,0.45);border-radius:8px;width:min(720px,92vw);max-height:82vh;overflow-y:auto;padding:2.8rem 2.6rem 2.4rem;box-shadow:0 32px 80px rgba(0,0,0,0.7),0 0 0 1px rgba(212,175,55,0.08);transform:translateY(18px) scale(.97);transition:transform .35s cubic-bezier(.22,.68,0,1.2)}
+.bio-overlay.open .bio-panel{transform:translateY(0) scale(1)}
+.bio-close{position:absolute;top:1rem;right:1.1rem;background:none;border:none;color:rgba(212,175,55,0.6);font-size:1.4rem;cursor:pointer;line-height:1;padding:.3rem .5rem;transition:color .2s}
+.bio-close:hover{color:var(--gold)}
+.bio-header{display:flex;align-items:center;gap:1.6rem;margin-bottom:1.8rem;padding-bottom:1.4rem;border-bottom:1px solid rgba(212,175,55,0.2)}
+.bio-portrait{width:90px;height:90px;border-radius:50%;overflow:hidden;border:2.5px solid rgba(212,175,55,0.55);flex-shrink:0;background:#1a1018}
+.bio-portrait img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.bio-meta{}
+.bio-modal-name{font-family:'Cormorant Garamond',serif;font-size:1.55rem;font-weight:700;color:var(--gold);letter-spacing:.04em;line-height:1.1;margin-bottom:.3rem}
+.bio-modal-role{font-size:.78rem;color:rgba(212,175,55,0.7);text-transform:uppercase;letter-spacing:.14em;margin-bottom:.4rem}
+.bio-modal-email{font-size:.82rem;color:rgba(212,175,55,0.5);text-decoration:none;transition:color .2s}
+.bio-modal-email:hover{color:var(--gold)}
+.bio-body p{font-size:1.05rem;color:rgba(212,175,55,0.88);line-height:1.78;margin:0 0 1.1em}
+.bio-body p:last-child{margin-bottom:0}
+.bio-coming{font-size:1rem;color:rgba(212,175,55,0.45);font-style:italic}
 
 /* ── ABOUT COLLAGE BACKGROUND ── */
 #pg-about{position:relative;overflow:hidden}
