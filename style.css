@@ -178,9 +178,10 @@ nav{background:#090606;height:66px;display:flex;align-items:center;padding:0 1.4
 
 /* ── TEAM CARDS ── */
 /* ── TEAM CARDS ── */
-.tm-grid{display:flex;flex-wrap:wrap;gap:1.8rem;justify-content:center;max-width:1020px;margin:0 auto;position:relative}
-.tm-card{width:220px;background:rgba(14,11,11,0.78);border:1.5px solid rgba(212,175,55,0.38);border-radius:6px;overflow:hidden;cursor:default;position:relative;z-index:1;transform-origin:top center;transition:transform .42s cubic-bezier(.22,.68,0,1.2),box-shadow .42s,border-color .35s;flex-shrink:0}
-.tm-card:hover{transform:scale(1.88);z-index:50;border-color:var(--gold);box-shadow:0 28px 80px rgba(0,0,0,0.88)}
+/* ── TEAM CARDS ── */
+.tm-grid{display:flex;flex-wrap:wrap;gap:1.8rem;justify-content:center;max-width:1020px;margin:0 auto}
+.tm-card{width:220px;background:rgba(14,11,11,0.78);border:1.5px solid rgba(212,175,55,0.38);border-radius:6px;overflow:hidden;cursor:default;transition:box-shadow .35s,border-color .35s;flex-shrink:0}
+.tm-card:hover{border-color:var(--gold);box-shadow:0 8px 32px rgba(212,175,55,0.18)}
 .tm-face{display:flex;flex-direction:column;align-items:center;padding:1.6rem 1rem 1.2rem}
 .tm-img-wrap{width:124px;height:124px;border-radius:50%;overflow:hidden;border:2.5px solid rgba(212,175,55,0.5);margin-bottom:1rem;flex-shrink:0;background:#1a1018}
 .tm-img-wrap img{width:100%;height:100%;object-fit:cover;object-position:center top}
@@ -189,10 +190,20 @@ nav{background:#090606;height:66px;display:flex;align-items:center;padding:0 1.4
 .tm-role{font-size:.83rem;color:rgba(212,175,55,0.85);text-transform:uppercase;letter-spacing:.13em;margin:.3rem 0 .5rem}
 .tm-email{font-size:.8rem;color:rgba(245,245,247,0.48);text-decoration:none;transition:color .2s;word-break:break-all}
 .tm-email:hover{color:var(--gold)}
-.tm-bio{max-height:0;overflow:hidden;transition:max-height .42s ease,padding .38s;border-top:0px solid rgba(212,175,55,0.22)}
-.tm-card:hover .tm-bio{max-height:400px;padding:.9rem 1.2rem 1.4rem;border-top-width:1px}
-.tm-bio p{font-size:.94rem;color:var(--gold);line-height:1.65;margin:0 0 .75em}
-.tm-bio p:last-child{margin-bottom:0}
+.tm-bio{display:none}
+
+/* ── BIO HOVER POPUP ── */
+#bio-popup{position:fixed;z-index:9999;width:400px;max-height:80vh;overflow-y:auto;background:linear-gradient(150deg,rgba(16,10,6,0.98) 0%,rgba(8,6,14,0.98) 100%);border:1.5px solid rgba(212,175,55,0.5);border-radius:8px;box-shadow:0 24px 64px rgba(0,0,0,0.75),0 0 0 1px rgba(212,175,55,0.06);padding:1.6rem 1.8rem 1.8rem;pointer-events:none;opacity:0;transition:opacity .22s ease;scrollbar-width:thin;scrollbar-color:rgba(212,175,55,0.3) transparent}
+#bio-popup.visible{opacity:1;pointer-events:all}
+.bp-header{display:flex;align-items:center;gap:1.2rem;margin-bottom:1.2rem;padding-bottom:1.1rem;border-bottom:1px solid rgba(212,175,55,0.18)}
+.bp-portrait{width:72px;height:72px;border-radius:50%;overflow:hidden;border:2px solid rgba(212,175,55,0.5);flex-shrink:0;background:#1a1018}
+.bp-portrait img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.bp-name{font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-weight:700;color:var(--gold);letter-spacing:.04em;line-height:1.15;margin-bottom:.25rem}
+.bp-role{font-size:.72rem;color:rgba(212,175,55,0.7);text-transform:uppercase;letter-spacing:.14em;margin-bottom:.2rem}
+.bp-email{font-size:.78rem;color:rgba(212,175,55,0.45);text-decoration:none}
+.bp-email:hover{color:var(--gold)}
+.bp-body p{font-size:.98rem;color:rgba(212,175,55,0.9);line-height:1.72;margin:0 0 .9em}
+.bp-body p:last-child{margin-bottom:0}
 .bio-coming{font-size:1rem;color:rgba(212,175,55,0.45);font-style:italic}
 
 /* ── ABOUT COLLAGE BACKGROUND ── */

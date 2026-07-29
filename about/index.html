@@ -198,9 +198,91 @@
   </div>
 </div>
 
+<!-- BIO HOVER POPUP -->
+<div id="bio-popup" role="tooltip">
+  <div class="bp-header">
+    <div class="bp-portrait"><img id="bp-img" src="" alt=""></div>
+    <div>
+      <div class="bp-name" id="bp-name"></div>
+      <div class="bp-role" id="bp-role"></div>
+      <a class="bp-email" id="bp-email" href=""></a>
+    </div>
+  </div>
+  <div class="bp-body" id="bp-body"></div>
+</div>
+
 <script>
 function tdd(id){const el=document.getElementById(id);const was=el.classList.contains('open');document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));if(!was)el.classList.add('open');}
 document.addEventListener('click',e=>{if(!e.target.closest('.dw'))document.querySelectorAll('.dm').forEach(m=>m.classList.remove('open'));});
+
+(function(){
+  const popup = document.getElementById('bio-popup');
+  let hideTimer = null;
+
+  function positionPopup(card) {
+    const r = card.getBoundingClientRect();
+    const pw = 400, gap = 12;
+    const vw = window.innerWidth, vh = window.innerHeight;
+    // Preferred: right of card; fallback: left
+    let left = r.right + gap;
+    if (left + pw > vw - 8) left = r.left - pw - gap;
+    if (left < 8) left = 8;
+    // Vertical: align top with card, clamp to viewport
+    let top = r.top;
+    const popH = Math.min(popup.scrollHeight || 400, vh * 0.8);
+    if (top + popH > vh - 8) top = vh - popH - 8;
+    if (top < 8) top = 8;
+    popup.style.left = left + 'px';
+    popup.style.top = top + 'px';
+  }
+
+  function showPopup(card) {
+    const img = card.querySelector('.tm-img-wrap img');
+    const name = card.querySelector('.tm-name');
+    const role = card.querySelector('.tm-role');
+    const email = card.querySelector('.tm-email');
+    const bio = card.querySelector('.tm-bio');
+
+    document.getElementById('bp-img').src = img ? img.src : '';
+    document.getElementById('bp-img').alt = img ? img.alt : '';
+    document.getElementById('bp-name').textContent = name ? name.textContent : '';
+
+    const roleEl = document.getElementById('bp-role');
+    roleEl.textContent = role ? role.textContent : '';
+    roleEl.style.display = role ? '' : 'none';
+
+    const emailEl = document.getElementById('bp-email');
+    emailEl.textContent = email ? email.textContent : '';
+    emailEl.href = email ? email.href : '';
+
+    document.getElementById('bp-body').innerHTML = bio
+      ? bio.innerHTML
+      : '<p>Bio coming soon — check back soon.</p>';
+
+    positionPopup(card);
+    popup.classList.add('visible');
+  }
+
+  function hidePopup() {
+    popup.classList.remove('visible');
+  }
+
+  function scheduleHide() {
+    hideTimer = setTimeout(hidePopup, 120);
+  }
+
+  function cancelHide() {
+    clearTimeout(hideTimer);
+  }
+
+  document.querySelectorAll('.tm-card').forEach(card => {
+    card.addEventListener('mouseenter', () => { cancelHide(); showPopup(card); });
+    card.addEventListener('mouseleave', scheduleHide);
+  });
+
+  popup.addEventListener('mouseenter', cancelHide);
+  popup.addEventListener('mouseleave', scheduleHide);
+})();
 </script>
 <footer>
   <div class="footer-links">
